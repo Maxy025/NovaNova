@@ -6,20 +6,13 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
-    void Update()
+    public void MenuPrincipal()
     {
-        void LoadSpecificScene(string sceneName)
-        {
-            SceneManager.LoadScene(sceneName);
-        }
-
-        void LoadSceneByIndex(int sceneIndex)
-        {
-            SceneManager.LoadScene(sceneIndex);
-        }
+        SceneManager.LoadScene("MenuPrincipal", LoadSceneMode.Single);//Carga la escena del menu principal 
     }
+
 }
