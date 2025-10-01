@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fe8c37936f7d9b418f668b7c4b99c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombre: Cubo Rojo
+  nombre: Cubo rojo
 --- !u!114 &7438062110130291182
 MonoBehaviour:
   m_ObjectHideFlags: 0
