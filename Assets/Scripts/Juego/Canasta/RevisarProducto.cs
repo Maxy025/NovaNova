@@ -10,8 +10,9 @@ namespace Assets.Scripts.Juego.Canasta
     internal static class RevisarProducto
     {
         public static bool cambio;
+        public static bool siEs;
 
-        public static void Revisar(string nombreProducto)
+        public static bool Revisar(string nombreProducto)
         {
             for (int i = 0; i < ListaCompras.listaCompras.Count; i++)
             {
@@ -19,10 +20,13 @@ namespace Assets.Scripts.Juego.Canasta
                 {
                     ListaCompras.listaCompras.RemoveAt(i);
                     cambio = true;
+                    siEs = true;
                     break;
                 }
+                siEs = false;
             }
 
+            return siEs;
         }
     }
 }
