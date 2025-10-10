@@ -13,14 +13,11 @@ namespace Assets.Scripts.Juego.Lista
             "Cubo rosa", "Cubo negro", "Cubo blanco", "Cubo morado"
         };
 
-        public static string[] productos2 = {
+        public static string[] productosPermitidos = {
             "Papitas Moffles",
             "Papitas Toritos",
             "Papitas Papitas",
             "Papitas Dale Paro",
-            "Cajas de Papitas",
-            "Caja de refrescos",
-            "Caja de botellas de Refrescos",
             "Botella de Cola Loca",
             "Botella de Sprite",
             "Botella de Fasta",
@@ -30,15 +27,11 @@ namespace Assets.Scripts.Juego.Lista
             "Emvase de jugo",
             "Cartón de jugo",
             "Envase de suavizante",
-            "Botella de vino",
-            "Cartón de leche",
-            "Gálon de leche",
+            "Cartón de leche",           
             "Pasta dental pequeño",
             "Pasta dental grande",
             "Cepillo dental",
             "Paquete de cepillos dentales",
-            "Manzana",
-            "Durazno",
             "Plátanos",
             "Cerezas",
             "Burrito de mole",
@@ -46,6 +39,15 @@ namespace Assets.Scripts.Juego.Lista
             "Sandía",
             "Elote",
             "Piña"
+        };
+
+        public static string[] productosProhibidos = {
+            "Croquetas para perros",
+            "Botella de vino",
+            "Maceta con planta",
+            "Gálon de leche",
+            "Manzana",
+            "Durazno"
         };
     }
 }
