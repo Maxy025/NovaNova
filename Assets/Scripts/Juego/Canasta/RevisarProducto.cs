@@ -11,6 +11,7 @@ namespace Assets.Scripts.Juego.Canasta
     {
         public static bool cambio;
         public static bool siEs;
+        public static bool siProhibido;
 
         public static bool Revisar(string nombreProducto)
         {
@@ -27,6 +28,21 @@ namespace Assets.Scripts.Juego.Canasta
             }
 
             return siEs;
+        }
+
+        public static bool Prohibido(string nombreProducto)
+        {
+            for (int i = 0; i < ListaProductos.productosProhibidos.Length; i++)
+            {
+                if (nombreProducto == ListaProductos.productosProhibidos[i])
+                {
+                    siProhibido = true;
+                    break;
+                }
+                siProhibido = false;
+            }
+
+            return siProhibido;
         }
     }
 }

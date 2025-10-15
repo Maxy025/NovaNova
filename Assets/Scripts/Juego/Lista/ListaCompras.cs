@@ -17,7 +17,7 @@ namespace Assets.Scripts.Juego.Lista
         {
             for (int i = 0; i < cantidadProductos; i++)
             {
-                listaCompras.Add(ListaProductos.productos[rand.Next(0, ListaProductos.productos.Length)]);
+                listaCompras.Add(ListaProductos.productosPermitidos[rand.Next(0, ListaProductos.productosPermitidos.Length)]);
             }
         }
     }
