@@ -1,5 +1,6 @@
 using Assets.Scripts.Juego.Canasta;
 using Assets.Scripts.Juego.Lista;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -9,10 +10,12 @@ public class Canasta : MonoBehaviour
     public float bonificacion;
     public float penalizacionProductoEquivocado;
     public float penalizacionProductoProhibido;
+    public float aumentoVelocidad;
 
     DatosProducto datosProducto;
     GameObject gameManager;
     Cronometro cronometro;
+    public List<GameObject> cintas;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -48,6 +51,11 @@ public class Canasta : MonoBehaviour
             else if (ListaCompras.listaCompras.Count <= 0)
             {
                 cronometro.contador += bonificacion;
+                for (int i = 0; i < cintas.Count; i++)
+                {
+                    AjusteCinta ajuste = cintas[i].GetComponent<AjusteCinta>();
+                    ajuste.velocidad += aumentoVelocidad;
+                }
             }
 
                 Destroy(other.gameObject);

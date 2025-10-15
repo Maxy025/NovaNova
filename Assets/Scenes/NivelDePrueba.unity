@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 124242412}
   m_Layer: 0
   m_Name: Cinta Productos Variados
-  m_TagString: Untagged
+  m_TagString: AjustesCintas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1643,11 +1643,6 @@ MonoBehaviour:
   - {fileID: 1159751210875520959, guid: fc8978c25b132b64d8d4fd0eae53752d, type: 3}
   - {fileID: 8929568012833999570, guid: b802378f2569ab34891a54ed0a8e0acb, type: 3}
   - {fileID: 2045678878964832206, guid: 09dacdd1346c667448f19e20310fe081, type: 3}
-  - {fileID: 8613874603540491696, guid: 019967eebfdabde409c7f3ce9501fb24, type: 3}
-  - {fileID: 1412479391354549143, guid: bfa0e09e512b9d644b1eca07c79be9dc, type: 3}
-  - {fileID: 3466603428790287389, guid: 0c808c0427e339148a3e63dd2053adf4, type: 3}
-  - {fileID: 1295315787903844794, guid: 766ab5479833e2e4ea1b896e9cabd5f3, type: 3}
-  - {fileID: 1410207733739572750, guid: a3b86d7cba689274d873a4c5138f7c05, type: 3}
   - {fileID: 5364167612052696217, guid: 9801e5fd7c9c0c944af16c0239f9f802, type: 3}
 --- !u!65 &370987910
 BoxCollider:
@@ -1773,12 +1768,11 @@ MonoBehaviour:
   tiempoAparicion: 2
   contador: 0
   productos:
-  - {fileID: 4505776724482159149, guid: d38a2fbae78fe38449cacdf50847224d, type: 3}
-  - {fileID: 3401522865126586457, guid: 07caa846529360f4cb8c31d37a046409, type: 3}
-  - {fileID: 6771980130566424569, guid: c5d66a00faa008b4db7f49603652d017, type: 3}
-  - {fileID: 3254440888615906842, guid: b94c6be06778a9448aa539279545f45e, type: 3}
-  - {fileID: 9149068068726235459, guid: 8fdadc554a3fe7447806dce174c79bdb, type: 3}
-  - {fileID: 2210807018818985529, guid: edb3e2c7999c69f47993a76ac35488cc, type: 3}
+  - {fileID: 8613874603540491696, guid: 019967eebfdabde409c7f3ce9501fb24, type: 3}
+  - {fileID: 1410207733739572750, guid: a3b86d7cba689274d873a4c5138f7c05, type: 3}
+  - {fileID: 1295315787903844794, guid: 766ab5479833e2e4ea1b896e9cabd5f3, type: 3}
+  - {fileID: 3466603428790287389, guid: 0c808c0427e339148a3e63dd2053adf4, type: 3}
+  - {fileID: 1412479391354549143, guid: bfa0e09e512b9d644b1eca07c79be9dc, type: 3}
 --- !u!65 &373272518
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1873,7 +1867,7 @@ GameObject:
   - component: {fileID: 385201249}
   m_Layer: 0
   m_Name: Cinta Bebidas
-  m_TagString: Untagged
+  m_TagString: AjustesCintas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3479,6 +3473,12 @@ MonoBehaviour:
   bonificacion: 30
   penalizacionProductoEquivocado: 5
   penalizacionProductoProhibido: 20
+  aumentoVelocidad: 0.5
+  cintas:
+  - {fileID: 124242411}
+  - {fileID: 1465413564}
+  - {fileID: 385201248}
+  - {fileID: 1509160977}
 --- !u!65 &1222355796
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4144,8 +4144,8 @@ GameObject:
   - component: {fileID: 1465413566}
   - component: {fileID: 1465413565}
   m_Layer: 0
-  m_Name: Cinta Productos Variados (1)
-  m_TagString: Untagged
+  m_Name: Cinta Productos Chatarra
+  m_TagString: AjustesCintas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4338,7 +4338,7 @@ GameObject:
   - component: {fileID: 1509160978}
   m_Layer: 0
   m_Name: Cinta Comida
-  m_TagString: Untagged
+  m_TagString: AjustesCintas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

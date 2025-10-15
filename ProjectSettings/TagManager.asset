@@ -8,6 +8,7 @@ TagManager:
   - Producto
   - Destruir
   - Agarrar
+  - AjustesCintas
   layers:
   - Default
   - TransparentFX
