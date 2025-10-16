@@ -1,0 +1,500 @@
+fileFormatVersion: 2
+guid: 5ef1fdf05ff2de74d8685361b8534f91
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_0"
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 782
+        width: 121
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2549199bb0e3a2544a340d2d26c19c63
+      internalID: -1028879593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_1"
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 781
+        width: 122
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d2839b449ff514299fab664fe09417
+      internalID: -942818936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_2"
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 781
+        width: 122
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd4a7625c272b248bdee8091b01a521
+      internalID: -1341679484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_3"
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 780
+        width: 118
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948b771a7e396f44cacf9b8c8a2db902
+      internalID: 2779878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_4"
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 523
+        width: 121
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706d17b8034323644b2a84d3573430d3
+      internalID: 953681642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_5"
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 524
+        width: 71
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60141aedce3413148875d9b0a54a6128
+      internalID: -955672752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_6"
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 523
+        width: 72
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d02d399613be5409f56181d666189f
+      internalID: -387505171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_7"
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 524
+        width: 72
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e278c6302058b47a3f0c01eb44d8f9
+      internalID: 1036658966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_8"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 264
+        width: 56
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0905eb43f1e8d584cae5080c45068474
+      internalID: 207375799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_9"
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 325
+        width: 227
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821e25c30ddab1c4ea071bd15b3c2c45
+      internalID: 579257067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_10"
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 320
+        width: 226
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057d6067ab5fb81408c5264cfdcb9b96
+      internalID: 1006354789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_11"
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 291
+        width: 166
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbe062e8866a4845bb2c5c2a9a7525b
+      internalID: -1518928859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_12"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 25
+        width: 217
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e1bd69cf4e45b4a9b8b8c65d049324
+      internalID: 1574039546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_13"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 23
+        width: 227
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23e8cec4da4bac4baa4e539dc65e157
+      internalID: 1640786250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_14"
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 13
+        width: 86
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377c099c50f556e49a8c994898af35dc
+      internalID: 122192558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_15"
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 14
+        width: 152
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecee471ec332af4cb43d66180ef14f8
+      internalID: -174389063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 03e24c9df254e964cbabb1c299110466
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_0": -1028879593
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_1": -942818936
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_10": 1006354789
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_11": -1518928859
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_12": 1574039546
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_13": 1640786250
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_14": 122192558
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_15": -174389063
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_2": -1341679484
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_3": 2779878
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_4": 953681642
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_5": -955672752
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_6": -387505171
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_7": 1036658966
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_8": 207375799
+      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-11_9": 579257067
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
