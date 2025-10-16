@@ -1549,7 +1549,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239602607}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -3195,7 +3195,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458322967}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -6412,7 +6412,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978537899}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -6897,6 +6897,8 @@ GameObject:
   - component: {fileID: 1135804290}
   - component: {fileID: 1135804289}
   - component: {fileID: 1135804291}
+  - component: {fileID: 1135804292}
+  - component: {fileID: 1135804293}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6952,7 +6954,41 @@ MonoBehaviour:
   gameOver: {fileID: 1124877803}
   textoTiempo: {fileID: 1970902746}
   textoPuntos: {fileID: 0}
+  gameManager: {fileID: 0}
   puntos: 0
+--- !u!114 &1135804292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135804288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155fa94519b2bdb41a27ab948b29dfff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1135804293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135804288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 722fb4ec5f75a06498d335b0d502a225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unaEstrella: 10
+  dosEstrellas: 20
+  tresEstrellas: 30
+  estrella1: {fileID: 0}
+  estrella2: {fileID: 0}
+  estrella3: {fileID: 0}
+  imagenEstrella1: {fileID: 0}
+  imagenEstrella2: {fileID: 0}
+  imagenEstrella3: {fileID: 0}
 --- !u!4 &1150875551 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3684f72bf43cbc74ebed3d9926204ff7, type: 3}
@@ -8313,7 +8349,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1397812013}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1135804292}
+        m_TargetAssemblyTypeName: ReiniciarJuego, Assembly-CSharp
+        m_MethodName: ReiniciarNivel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1397812013
 MonoBehaviour:
   m_ObjectHideFlags: 0

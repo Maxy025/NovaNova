@@ -20,5 +20,10 @@ namespace Assets.Scripts.Juego.Lista
                 listaCompras.Add(ListaProductos.productosPermitidos[rand.Next(0, ListaProductos.productosPermitidos.Length)]);
             }
         }
+
+        public static void LimpiarListaCompras()
+        {
+            for (int i = 0; i < listaCompras.Count; i++) listaCompras.Remove(listaCompras[i]);
+        }
     }
 }
