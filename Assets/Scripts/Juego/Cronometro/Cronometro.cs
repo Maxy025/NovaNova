@@ -1,3 +1,4 @@
+using Assets.Scripts.Juego.Jugador;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -13,6 +14,8 @@ public class Cronometro : MonoBehaviour
     public TMP_Text textoTiempo;
     public TMP_Text textoPuntos;
 
+    public int puntos;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,6 +23,8 @@ public class Cronometro : MonoBehaviour
         gameOver = GameObject.Find("GameOver");
         textoTiempo = gameOver.transform.Find("tempo").GetComponent<TMP_Text>();
         textoPuntos = gameOver.transform.Find("puntos").GetComponent<TMP_Text>();
+
+        gameOver.SetActive(false);
     }
 
     // Update is called once per frame
@@ -36,6 +41,7 @@ public class Cronometro : MonoBehaviour
             Time.timeScale = 0;
             Cursor.lockState = CursorLockMode.None;
             textoTiempo.text = contadorTotal.ToString();
+            textoPuntos.text = DatosJugador.Puntos.ToString();
         }
     }
 }

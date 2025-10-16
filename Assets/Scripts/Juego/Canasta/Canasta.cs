@@ -14,6 +14,7 @@ public class Canasta : MonoBehaviour
     public float penalizacionProductoEquivocado;
     public float penalizacionProductoProhibido;
     public float aumentoVelocidad;
+    public float disminuirAparicion;
 
 
     DatosProducto datosProducto;
@@ -59,8 +60,11 @@ public class Canasta : MonoBehaviour
                 {
                     AjusteCinta ajuste = cintas[i].GetComponent<AjusteCinta>();
                     ajuste.velocidad += aumentoVelocidad;
-                    DatosJugador.Puntos += bonificacionPuntos;
+
+                    SpawProducto spaw = cintas[i].transform.Find("SpawProductos").GetComponent<SpawProducto>();
+                    spaw.tiempoAparicion -= disminuirAparicion;
                 }
+                DatosJugador.Puntos += bonificacionPuntos;
             }
 
                 Destroy(other.gameObject);

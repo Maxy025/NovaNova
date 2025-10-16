@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class MovimientoJugador : MonoBehaviour
 {
-    public float velocidad;
+    public float velocidadCaminata;
+    public float velocidadCorrer;
 
     CharacterController controlador;
 
@@ -18,8 +19,17 @@ public class MovimientoJugador : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+
+        }
         Vector3 mover = transform.right * x + transform.forward * z;
 
-        controlador.Move(mover * velocidad * Time.deltaTime);
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            controlador.Move(mover * velocidadCorrer * Time.deltaTime);
+        }
+        else controlador.Move(mover * velocidadCaminata * Time.deltaTime);
+
     }
 }
