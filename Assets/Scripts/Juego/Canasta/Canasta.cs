@@ -1,19 +1,27 @@
 using Assets.Scripts.Juego.Canasta;
+using Assets.Scripts.Juego.Lista;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class Canasta : MonoBehaviour
 {
     public string etiqueta;
-    public float penalizacion;
+    public float bonificacion;
+    public float penalizacionProductoEquivocado;
+    public float penalizacionProductoProhibido;
+    public float aumentoVelocidad;
 
     DatosProducto datosProducto;
     GameObject gameManager;
+    Cronometro cronometro;
+    public List<GameObject> cintas;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         gameManager = GameObject.Find("GameManager");
+        cronometro = gameManager.GetComponent<Cronometro>();
     }
 
     // Update is called once per frame
@@ -30,11 +38,27 @@ public class Canasta : MonoBehaviour
 
             if (!RevisarProducto.Revisar(datosProducto.nombre))
             {
-                Cronometro cronometro = gameManager.GetComponent<Cronometro>();
-                cronometro.contador -= penalizacion;
+                if (RevisarProducto.Prohibido(datosProducto.nombre))
+                {
+                    cronometro.contador -= penalizacionProductoProhibido;
+                }
+                else
+                {
+                    cronometro.contador -= penalizacionProductoEquivocado;
+                }
+                
             }
-            
-            Destroy(other.gameObject);
+            else if (ListaCompras.listaCompras.Count <= 0)
+            {
+                cronometro.contador += bonificacion;
+                for (int i = 0; i < cintas.Count; i++)
+                {
+                    AjusteCinta ajuste = cintas[i].GetComponent<AjusteCinta>();
+                    ajuste.velocidad += aumentoVelocidad;
+                }
+            }
+
+                Destroy(other.gameObject);
         }
     }
 }
