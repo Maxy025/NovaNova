@@ -1,16 +1,20 @@
 using Assets.Scripts.Juego.Canasta;
+using Assets.Scripts.Juego.Jugador;
 using Assets.Scripts.Juego.Lista;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
 public class Canasta : MonoBehaviour
 {
     public string etiqueta;
-    public float bonificacion;
+    public float bonificacionTiempo;
+    public int bonificacionPuntos;
     public float penalizacionProductoEquivocado;
     public float penalizacionProductoProhibido;
     public float aumentoVelocidad;
+
 
     DatosProducto datosProducto;
     GameObject gameManager;
@@ -50,11 +54,12 @@ public class Canasta : MonoBehaviour
             }
             else if (ListaCompras.listaCompras.Count <= 0)
             {
-                cronometro.contador += bonificacion;
+                cronometro.contador += bonificacionTiempo;
                 for (int i = 0; i < cintas.Count; i++)
                 {
                     AjusteCinta ajuste = cintas[i].GetComponent<AjusteCinta>();
                     ajuste.velocidad += aumentoVelocidad;
+                    DatosJugador.Puntos += bonificacionPuntos;
                 }
             }
 
