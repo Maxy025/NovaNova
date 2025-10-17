@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1681ff99c34b04479c578b961eab481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoAparicion: 2
+  tiempoAparicion: 1.5
   contador: 0
   productos:
   - {fileID: 894403309427340914, guid: 6ed2ab1ca6686ac439cc60b9c730b7b0, type: 3}
@@ -345,7 +345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1681ff99c34b04479c578b961eab481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoAparicion: 2
+  tiempoAparicion: 1.5
   contador: 0
   productos:
   - {fileID: 4505776724482159149, guid: d38a2fbae78fe38449cacdf50847224d, type: 3}
@@ -1625,7 +1625,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239602607}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -2762,7 +2762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1681ff99c34b04479c578b961eab481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoAparicion: 2
+  tiempoAparicion: 1.5
   contador: 0
   productos:
   - {fileID: 6006201534298904047, guid: d4f6366dc9d83de46825746d62986d81, type: 3}
@@ -2895,7 +2895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1681ff99c34b04479c578b961eab481, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempoAparicion: 2
+  tiempoAparicion: 1.5
   contador: 0
   productos:
   - {fileID: 8613874603540491696, guid: 019967eebfdabde409c7f3ce9501fb24, type: 3}
@@ -3346,7 +3346,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458322967}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -3648,7 +3648,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 874f7f2665a4d264a8379f1aec02997b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 2
+  velocidadCaminata: 3
+  velocidadCorrer: 6
 --- !u!1 &509565229
 GameObject:
   m_ObjectHideFlags: 0
@@ -6202,7 +6203,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &841436285
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6713,7 +6714,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978537899}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -7473,6 +7474,8 @@ GameObject:
   - component: {fileID: 1135804290}
   - component: {fileID: 1135804289}
   - component: {fileID: 1135804291}
+  - component: {fileID: 1135804292}
+  - component: {fileID: 1135804293}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -7522,8 +7525,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de9e5678f507a064f818458ed9881c9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiempo: 50
+  tiempo: 100
   contador: 0
+  contadorTotal: 0
+  gameOver: {fileID: 1124877803}
+  textoTiempo: {fileID: 1970902746}
+  textoPuntos: {fileID: 0}
+  gameManager: {fileID: 0}
+  puntos: 0
+--- !u!114 &1135804292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135804288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155fa94519b2bdb41a27ab948b29dfff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1135804293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135804288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 722fb4ec5f75a06498d335b0d502a225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unaEstrella: 10
+  dosEstrellas: 20
+  tresEstrellas: 30
+  estrella1: {fileID: 0}
+  estrella2: {fileID: 0}
+  estrella3: {fileID: 0}
+  imagenEstrella1: {fileID: 0}
+  imagenEstrella2: {fileID: 0}
+  imagenEstrella3: {fileID: 0}
 --- !u!4 &1150875551 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3684f72bf43cbc74ebed3d9926204ff7, type: 3}
@@ -7703,10 +7745,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   etiqueta: Producto
-  bonificacion: 30
+  bonificacionTiempo: 30
+  bonificacionPuntos: 10
   penalizacionProductoEquivocado: 5
   penalizacionProductoProhibido: 20
-  aumentoVelocidad: 0.5
+  aumentoVelocidad: 0.2
+  disminuirAparicion: 0.2
   cintas:
   - {fileID: 124242411}
   - {fileID: 1465413564}
@@ -8220,7 +8264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1310805279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8957,7 +9001,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1397812013}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1135804292}
+        m_TargetAssemblyTypeName: ReiniciarJuego, Assembly-CSharp
+        m_MethodName: ReiniciarNivel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1397812013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10510,7 +10566,7 @@ GameObject:
   - component: {fileID: 1626076637}
   - component: {fileID: 1626076636}
   m_Layer: 5
-  m_Name: 0
+  m_Name: puntos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12376,7 +12432,7 @@ GameObject:
   - component: {fileID: 1970902747}
   - component: {fileID: 1970902746}
   m_Layer: 5
-  m_Name: 0
+  m_Name: tempo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12822,7 +12878,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2051858190
 RectTransform:
   m_ObjectHideFlags: 0
