@@ -11,6 +11,7 @@ namespace Assets.Scripts.Juego.Canasta
     {
         public static bool siEs;
         public static bool siProhibido;
+        public static int indice;
 
         public static bool Revisar(string nombreProducto)
         {
@@ -18,7 +19,7 @@ namespace Assets.Scripts.Juego.Canasta
             {
                 if (nombreProducto == ListaCompras.listaCompras[i])
                 {
-                    ListaCompras.listaCompras.RemoveAt(i);
+                    indice = i;
                     siEs = true;
                     break;
                 }
@@ -41,6 +42,11 @@ namespace Assets.Scripts.Juego.Canasta
             }
 
             return siProhibido;
+        }
+
+        public static void Eliminar()
+        {
+            ListaCompras.listaCompras.RemoveAt(indice);
         }
     }
 }
