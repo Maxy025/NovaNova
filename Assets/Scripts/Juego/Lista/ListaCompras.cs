@@ -15,6 +15,7 @@ namespace Assets.Scripts.Juego.Lista
 
         public static void CrearListaCompras(int cantidadProductos)
         {
+            LimpiarListaCompras();
             for (int i = 0; i < cantidadProductos; i++)
             {
                 listaCompras.Add(ListaProductos.productosPermitidos[rand.Next(0, ListaProductos.productosPermitidos.Length)]);
@@ -23,7 +24,10 @@ namespace Assets.Scripts.Juego.Lista
 
         public static void LimpiarListaCompras()
         {
-            for (int i = 0; i < listaCompras.Count; i++) listaCompras.Remove(listaCompras[i]);
+            while (listaCompras.Count > 0)
+            {
+                listaCompras.Remove(listaCompras[0]);
+            }
         }
     }
 }

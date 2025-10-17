@@ -15,9 +15,9 @@ public class Cronometro : MonoBehaviour
     public TMP_Text textoTiempo;
     public TMP_Text textoPuntos;
 
-    public GameObject gameManager;
+    public TMP_Text textoCronometro;
 
-    public int puntos;
+    public GameObject gameManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,6 +28,8 @@ public class Cronometro : MonoBehaviour
         gameOver = GameObject.Find("GameOver");
         textoTiempo = gameOver.transform.Find("tempo").GetComponent<TMP_Text>();
         textoPuntos = gameOver.transform.Find("puntos").GetComponent<TMP_Text>();
+
+        textoCronometro = GameObject.Find("Cronometro").GetComponentInChildren<TMP_Text>();
 
         
         StartCoroutine(DesactivarGameOver());
@@ -42,6 +44,7 @@ public class Cronometro : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        textoCronometro.text = Mathf.FloorToInt(contador).ToString();
         if (contador > 0)
         {
             contador -= 1 * Time.deltaTime;

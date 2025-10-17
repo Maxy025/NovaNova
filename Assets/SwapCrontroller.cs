@@ -38,6 +38,6 @@ public class SwapCrontroller : MonoBehaviour
     }
     void MovePage()
     {
-        levelPageRect.LeanMoveLocal(targetPos, tweenTime).setEase(tweenType);
+        levelPageRect.LeanMoveLocal(targetPos, tweenTime).setEase(tweenType).setIgnoreTimeScale(true);
     }
 }

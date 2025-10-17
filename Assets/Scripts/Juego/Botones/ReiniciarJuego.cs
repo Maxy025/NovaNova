@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class ReiniciarJuego : MonoBehaviour
 {
+    GameObject gameManager;
+
     void Start()
     {
+        gameManager = GameObject.Find("GameManager");
+
         Time.timeScale = 1;
         DatosJugador.Puntos = 0;
-        if (ListaCompras.listaCompras.Count > 0) ListaCompras.LimpiarListaCompras();
     }
 
     public void ReiniciarNivel()

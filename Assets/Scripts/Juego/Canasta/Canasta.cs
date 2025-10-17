@@ -20,6 +20,7 @@ public class Canasta : MonoBehaviour
     DatosProducto datosProducto;
     GameObject gameManager;
     Cronometro cronometro;
+    public TMP_Text textoPuntos;
     public List<GameObject> cintas;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -27,6 +28,7 @@ public class Canasta : MonoBehaviour
     {
         gameManager = GameObject.Find("GameManager");
         cronometro = gameManager.GetComponent<Cronometro>();
+        textoPuntos = GameObject.Find("Score").GetComponentInChildren<TMP_Text>();
     }
 
     // Update is called once per frame
@@ -55,6 +57,9 @@ public class Canasta : MonoBehaviour
             }
             else if (ListaCompras.listaCompras.Count <= 0)
             {
+                DatosJugador.Puntos += bonificacionPuntos;
+                textoPuntos.text = DatosJugador.Puntos.ToString();
+
                 cronometro.contador += bonificacionTiempo;
                 for (int i = 0; i < cintas.Count; i++)
                 {
@@ -64,7 +69,6 @@ public class Canasta : MonoBehaviour
                     SpawProducto spaw = cintas[i].transform.Find("SpawProductos").GetComponent<SpawProducto>();
                     spaw.tiempoAparicion -= disminuirAparicion;
                 }
-                DatosJugador.Puntos += bonificacionPuntos;
             }
 
                 Destroy(other.gameObject);

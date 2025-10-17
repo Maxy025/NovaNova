@@ -9,7 +9,6 @@ namespace Assets.Scripts.Juego.Canasta
 {
     internal static class RevisarProducto
     {
-        public static bool cambio;
         public static bool siEs;
         public static bool siProhibido;
 
@@ -20,7 +19,6 @@ namespace Assets.Scripts.Juego.Canasta
                 if (nombreProducto == ListaCompras.listaCompras[i])
                 {
                     ListaCompras.listaCompras.RemoveAt(i);
-                    cambio = true;
                     siEs = true;
                     break;
                 }

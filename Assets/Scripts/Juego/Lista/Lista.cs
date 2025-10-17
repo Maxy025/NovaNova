@@ -13,17 +13,17 @@ public class Lista : MonoBehaviour
     {
         ListaCompras.CrearListaCompras(cantidadProductos);
         for (int i = 0; i < cantidadProductos; i++) textoLista += $"{ListaCompras.listaCompras[i]}.\n";
+        lista = ListaCompras.listaCompras.Count;
     }
 
     // Update is called once per frame
     void Update()
     {
-        lista = ListaCompras.listaCompras.Count;
-        if (RevisarProducto.cambio)
+        if (lista != ListaCompras.listaCompras.Count)
         {
             textoLista = "";
             for (int i = 0; i < ListaCompras.listaCompras.Count; i++) textoLista += $"{ListaCompras.listaCompras[i]}.\n";
-            RevisarProducto.cambio = false;
+            lista = ListaCompras.listaCompras.Count;
         }
         if (ListaCompras.listaCompras.Count <= 0)
         {
