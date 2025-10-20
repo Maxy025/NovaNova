@@ -18,11 +18,8 @@ public class MovimientoJugador : MonoBehaviour
     {
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
+        float y = 1.08f;
 
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-
-        }
         Vector3 mover = transform.right * x + transform.forward * z;
 
         if (Input.GetKey(KeyCode.LeftShift))
@@ -31,5 +28,6 @@ public class MovimientoJugador : MonoBehaviour
         }
         else controlador.Move(mover * velocidadCaminata * Time.deltaTime);
 
+        if (transform.position.y != 1.08) transform.position = new Vector3(transform.position.x, 1.08f, transform.position.z);
     }
 }

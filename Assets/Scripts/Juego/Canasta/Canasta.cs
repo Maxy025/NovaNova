@@ -14,7 +14,9 @@ public class Canasta : MonoBehaviour
     public float penalizacionProductoEquivocado;
     public float penalizacionProductoProhibido;
     public float aumentoVelocidad;
+
     public float disminuirAparicion;
+    public int disminuirBonificacionTiempo;
 
 
     DatosProducto datosProducto;
@@ -70,7 +72,17 @@ public class Canasta : MonoBehaviour
                 DatosJugador.Puntos += bonificacionPuntos;
                 textoPuntos.text = DatosJugador.Puntos.ToString();
 
+                Puntuaciones puntuacion = gameManager.GetComponent<Puntuaciones>();
+
+                
                 cronometro.contador += bonificacionTiempo;
+
+                if (DatosJugador.Puntos == puntuacion.unaEstrella)
+                    bonificacionTiempo -= disminuirBonificacionTiempo;
+                else if (DatosJugador.Puntos == puntuacion.dosEstrellas)
+                    bonificacionTiempo -= disminuirBonificacionTiempo;
+                else if (DatosJugador.Puntos == puntuacion.tresEstrellas)
+                    bonificacionTiempo -= disminuirBonificacionTiempo/2;
 
                 for (int i = 0; i < cintas.Count; i++)
                 {

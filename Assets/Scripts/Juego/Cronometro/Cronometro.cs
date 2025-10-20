@@ -52,10 +52,11 @@ public class Cronometro : MonoBehaviour
         }
         else
         {
+            textoCronometro.text = 0.ToString();
             gameOver.SetActive(true);
             Time.timeScale = 0;
             Cursor.lockState = CursorLockMode.None;
-            textoTiempo.text = contadorTotal.ToString();
+            textoTiempo.text = Mathf.FloorToInt(contadorTotal).ToString();
             textoPuntos.text = DatosJugador.Puntos.ToString();
             Puntuaciones puntuaciones = gameManager.GetComponent<Puntuaciones>();
             puntuaciones.Estrellas();
