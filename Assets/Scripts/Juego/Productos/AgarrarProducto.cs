@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AgarrarProducto : MonoBehaviour
 {
@@ -8,11 +9,18 @@ public class AgarrarProducto : MonoBehaviour
     public bool tomar;
 
     public GameObject apuntador;
+    public GameObject gameManager;
+
+    public Image imagenApuntador;
+    public ImagenCursor imagenCursor;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         apuntador = GameObject.Find("CrossHairHand");
+        gameManager = GameObject.Find("GameManager");
+        imagenApuntador = apuntador.GetComponent<Image>();
+        imagenCursor = gameManager.GetComponent<ImagenCursor>();
     }
 
     // Update is called once per frame
@@ -43,12 +51,17 @@ public class AgarrarProducto : MonoBehaviour
 
     private void OnMouseOver()
     {
-        apuntador.transform.localScale = Vector3.one*1.5f;
+        if (tomar) apuntador.transform.localScale = Vector3.one*1.5f;
     }
 
     private void OnMouseExit()
     {
         apuntador.transform.localScale = Vector3.one;
+    }
+
+    private void OnMouseUp()
+    {
+        imagenApuntador.sprite = imagenCursor.spritesCursor[0];
     }
 
     private void OnTriggerEnter(Collider other)
@@ -58,13 +71,4 @@ public class AgarrarProducto : MonoBehaviour
             tomar = true;
         }
     }
-
-
-    /*private void OnTriggerExit(Collider other)
-    {
-        if (other.tag == etiqueta)
-        {
-            tomar = false;
-        }
-    }*/
 }

@@ -326,6 +326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempoAparicion: 1.5
   contador: 0
+  comodin: 10
   productos:
   - {fileID: 894403309427340914, guid: 6ed2ab1ca6686ac439cc60b9c730b7b0, type: 3}
   - {fileID: 2095098557185332614, guid: 2ae5863546f717245a6edd18b533d65d, type: 3}
@@ -338,6 +339,8 @@ MonoBehaviour:
   - {fileID: 5150308111445370165, guid: edbf770da26b19749ac5dd2cd3adc718, type: 3}
   - {fileID: 8445744435884546217, guid: a837c3ef03cc43b478a9f58aec253ed4, type: 3}
   - {fileID: 1873950951482330131, guid: 14cd5d885952f7c4f89fd0683b901f96, type: 3}
+  gameManager: {fileID: 0}
+  lista: {fileID: 0}
 --- !u!65 &33883655
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -461,6 +464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempoAparicion: 1.5
   contador: 0
+  comodin: 10
   productos:
   - {fileID: 4505776724482159149, guid: d38a2fbae78fe38449cacdf50847224d, type: 3}
   - {fileID: 3401522865126586457, guid: 07caa846529360f4cb8c31d37a046409, type: 3}
@@ -468,6 +472,8 @@ MonoBehaviour:
   - {fileID: 3254440888615906842, guid: b94c6be06778a9448aa539279545f45e, type: 3}
   - {fileID: 9149068068726235459, guid: 8fdadc554a3fe7447806dce174c79bdb, type: 3}
   - {fileID: 2210807018818985529, guid: edb3e2c7999c69f47993a76ac35488cc, type: 3}
+  gameManager: {fileID: 0}
+  lista: {fileID: 0}
 --- !u!65 &49092315
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2756,6 +2762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempoAparicion: 1.5
   contador: 0
+  comodin: 10
   productos:
   - {fileID: 6006201534298904047, guid: d4f6366dc9d83de46825746d62986d81, type: 3}
   - {fileID: 301710354527056639, guid: 6dc7746fc01fc334c975fa6eb9c33ae8, type: 3}
@@ -2766,6 +2773,8 @@ MonoBehaviour:
   - {fileID: 8929568012833999570, guid: b802378f2569ab34891a54ed0a8e0acb, type: 3}
   - {fileID: 2045678878964832206, guid: 09dacdd1346c667448f19e20310fe081, type: 3}
   - {fileID: 5364167612052696217, guid: 9801e5fd7c9c0c944af16c0239f9f802, type: 3}
+  gameManager: {fileID: 0}
+  lista: {fileID: 0}
 --- !u!65 &370987910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2889,12 +2898,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tiempoAparicion: 1.5
   contador: 0
+  comodin: 10
   productos:
   - {fileID: 8613874603540491696, guid: 019967eebfdabde409c7f3ce9501fb24, type: 3}
   - {fileID: 1410207733739572750, guid: a3b86d7cba689274d873a4c5138f7c05, type: 3}
   - {fileID: 1295315787903844794, guid: 766ab5479833e2e4ea1b896e9cabd5f3, type: 3}
   - {fileID: 3466603428790287389, guid: 0c808c0427e339148a3e63dd2053adf4, type: 3}
   - {fileID: 1412479391354549143, guid: bfa0e09e512b9d644b1eca07c79be9dc, type: 3}
+  gameManager: {fileID: 0}
+  lista: {fileID: 0}
 --- !u!65 &373272518
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6579,6 +6591,7 @@ GameObject:
   - component: {fileID: 1135804293}
   - component: {fileID: 1135804294}
   - component: {fileID: 1135804295}
+  - component: {fileID: 1135804296}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6728,6 +6741,21 @@ MonoBehaviour:
   esElIncio: 1
   inicio: {fileID: 0}
   interfaz: {fileID: 0}
+--- !u!114 &1135804296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135804288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 239c956d4c4f6644fa606781835b4fd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spritesCursor:
+  - {fileID: 570970822, guid: cdbb0a42af2fe374d94c208e194dc1ca, type: 3}
+  - {fileID: -1799889676, guid: d8bd3aaef14937f47b42238ea8f9272b, type: 3}
 --- !u!4 &1150875551 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3684f72bf43cbc74ebed3d9926204ff7, type: 3}
@@ -8057,6 +8085,7 @@ MonoBehaviour:
   mousePositionOffset: {x: 0, y: 0, z: 0}
   etiqueta: Agarrar
   tomar: 0
+  apuntador: {fileID: 0}
 --- !u!114 &1362321975
 MonoBehaviour:
   m_ObjectHideFlags: 0
