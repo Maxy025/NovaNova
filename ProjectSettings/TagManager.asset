@@ -9,6 +9,7 @@ TagManager:
   - Destruir
   - Agarrar
   - AjustesCintas
+  - SpawnConfetti
   layers:
   - Default
   - TransparentFX

@@ -25,6 +25,7 @@ public class Canasta : MonoBehaviour
     public TMP_Text textoPuntos;
     public List<GameObject> cintas;
     public Lista lista;
+    public SpawnConfetti confetti;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,6 +34,7 @@ public class Canasta : MonoBehaviour
         cronometro = gameManager.GetComponent<Cronometro>();
         textoPuntos = GameObject.Find("Score").GetComponentInChildren<TMP_Text>();
         lista = gameManager.GetComponent<Lista>();
+        confetti = GameObject.FindGameObjectWithTag("SpawnConfetti").GetComponent<SpawnConfetti>();
     }
 
     // Update is called once per frame
@@ -63,7 +65,7 @@ public class Canasta : MonoBehaviour
             if (RevisarProducto.Revisar(datosProducto.nombre))
             {
                 lista.MarcarListaVisual();
-
+                confetti.ActivarConfetti();
                 RevisarProducto.Eliminar();
             }
 
