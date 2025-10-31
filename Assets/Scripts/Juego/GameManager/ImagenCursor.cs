@@ -9,13 +9,21 @@ public class ImagenCursor : MonoBehaviour
 
     public Image imagenApuntador;
 
-    private void OnMouseDown()
+    private void Start()
     {
-        imagenApuntador.sprite = spritesCursor[1];
+
+        apuntador = GameObject.Find("CrossHairHand");
+        imagenApuntador = apuntador.GetComponent<Image>();
     }
 
-    private void OnMouseUp()
+    private void Update()
     {
-        
+        if (Input.GetMouseButton(0)) imagenApuntador.sprite = spritesCursor[1];
+        else if (Input.GetMouseButtonUp(0))
+        {
+            imagenApuntador.sprite = spritesCursor[0];
+            apuntador.transform.localScale = Vector3.one;
+        }
     }
+
 }
