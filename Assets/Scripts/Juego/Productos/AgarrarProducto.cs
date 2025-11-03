@@ -10,6 +10,8 @@ public class AgarrarProducto : MonoBehaviour
     public bool agarrando;
 
     public GameObject apuntador;
+    public GameObject flecha;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,7 +21,10 @@ public class AgarrarProducto : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (agarrando)
+        {
+
+        }
     }
 
     private Vector3 GetMouseWorldPos()
