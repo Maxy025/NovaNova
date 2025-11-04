@@ -6,6 +6,7 @@ public class ImagenCursor : MonoBehaviour
     public Sprite[] spritesCursor;
 
     public GameObject apuntador;
+    public GameObject flecha;
 
     public Image imagenApuntador;
 
@@ -14,6 +15,7 @@ public class ImagenCursor : MonoBehaviour
 
         apuntador = GameObject.Find("CrossHairHand");
         imagenApuntador = apuntador.GetComponent<Image>();
+        flecha = GameObject.Find("Flecha");
     }
 
     private void Update()
@@ -23,6 +25,7 @@ public class ImagenCursor : MonoBehaviour
         {
             imagenApuntador.sprite = spritesCursor[0];
             apuntador.transform.localScale = Vector3.one;
+            flecha.GetComponent<MeshRenderer>().enabled = false;
         }
     }
 

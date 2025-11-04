@@ -13,6 +13,7 @@ public class MovimientoFlecha : MonoBehaviour
     void Start()
     {
         flecha = GetComponent<MeshRenderer>();
+        flecha.enabled = false;
     }
 
     // Update is called once per frame

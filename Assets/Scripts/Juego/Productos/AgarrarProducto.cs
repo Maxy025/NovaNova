@@ -8,6 +8,7 @@ public class AgarrarProducto : MonoBehaviour
     public string etiqueta = "Agarrar";
     public bool tomar;
     public bool agarrando;
+    public bool entro;
 
     public GameObject apuntador;
     public GameObject flecha;
@@ -16,15 +17,13 @@ public class AgarrarProducto : MonoBehaviour
     void Start()
     {
         apuntador = GameObject.Find("CrossHairHand");
+        flecha = GameObject.Find("Flecha");
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (agarrando)
-        {
-
-        }
+        if (agarrando) flecha.GetComponent<MeshRenderer>().enabled = true;
     }
 
     private Vector3 GetMouseWorldPos()
