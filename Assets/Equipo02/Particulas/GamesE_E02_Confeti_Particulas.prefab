@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1962011779805200869}
   - component: {fileID: 244874374693329822}
   m_Layer: 0
-  m_Name: Confetti
+  m_Name: GamesE_E02_Confeti_Particulas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

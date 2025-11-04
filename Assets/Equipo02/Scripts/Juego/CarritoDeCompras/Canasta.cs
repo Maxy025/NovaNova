@@ -64,7 +64,7 @@ public class Canasta : MonoBehaviour
 
             if (RevisarProducto.Revisar(datosProducto.nombre))
             {
-                lista.MarcarListaVisual();
+                lista.MarcarListaVisual(datosProducto.nombre);
                 confetti.ActivarConfetti();
                 RevisarProducto.Eliminar();
             }

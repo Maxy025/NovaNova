@@ -6688,32 +6688,57 @@ MonoBehaviour:
   - {fileID: 1944989015}
   - {fileID: 11612195}
   - {fileID: 217529372}
-  imagenesProductos:
-  - {fileID: 2779878, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
-  - {fileID: -942818936, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
-  - {fileID: -1341679484, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
-  - {fileID: 953681642, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
-  - {fileID: -955672752, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
-  - {fileID: -387505171, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
-  - {fileID: 1036658966, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
-  - {fileID: 1917001225, guid: 3341ba83c43cab847b7eb77ad0bff94b, type: 3}
-  - {fileID: 1061885931, guid: 3341ba83c43cab847b7eb77ad0bff94b, type: 3}
-  - {fileID: -1438240598, guid: 3341ba83c43cab847b7eb77ad0bff94b, type: 3}
-  - {fileID: 122192558, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
-  - {fileID: 689673967, guid: 3341ba83c43cab847b7eb77ad0bff94b, type: 3}
-  - {fileID: -174389063, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
-  - {fileID: 669900158, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
-  - {fileID: -1365069506, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
-  - {fileID: -96930000, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
-  - {fileID: -740114832, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
-  - {fileID: 1391449226, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
-  - {fileID: 1596872290, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
-  - {fileID: -206917715, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
-  - {fileID: 459610302, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
-  - {fileID: -166052987, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
-  - {fileID: 1862133120, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
-  - {fileID: -1500184509, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
-  - {fileID: -1210214518, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  DiccionarioImagenesProductos:
+  - nombreProducto: Burrito de mole
+    imagenProducto: {fileID: 459610302, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  - nombreProducto: Burrito de winnie
+    imagenProducto: {fileID: -166052987, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  - nombreProducto: Cepillo dental
+    imagenProducto: {fileID: -740114832, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  - nombreProducto: Paquete de cepillos dentales
+    imagenProducto: {fileID: 1391449226, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  - nombreProducto: Cerezas
+    imagenProducto: {fileID: -206917715, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  - nombreProducto: Elote
+    imagenProducto: {fileID: -1500184509, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  - nombreProducto: "Cart\xF3n de leche"
+    imagenProducto: {fileID: 669900158, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  - nombreProducto: Pasta dental grande
+    imagenProducto: {fileID: -96930000, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  - nombreProducto: "Pasta dental peque\xF1o"
+    imagenProducto: {fileID: -1365069506, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  - nombreProducto: "Pi\xF1a"
+    imagenProducto: {fileID: -1210214518, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  - nombreProducto: "Pl\xE1tanos"
+    imagenProducto: {fileID: 1596872290, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  - nombreProducto: "Sand\xEDa"
+    imagenProducto: {fileID: 1862133120, guid: 4814ed9bc4f3c314dbdeea9af7543d48, type: 3}
+  - nombreProducto: Botella de Cola Loca
+    imagenProducto: {fileID: -955672752, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
+  - nombreProducto: Botella de Fasta
+    imagenProducto: {fileID: 1036658966, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
+  - nombreProducto: Emvase de jugo
+    imagenProducto: {fileID: 122192558, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
+  - nombreProducto: Botella de Sprite
+    imagenProducto: {fileID: -387505171, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
+  - nombreProducto: Papitas Dale Paro
+    imagenProducto: {fileID: 953681642, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
+  - nombreProducto: Envase de suavizante
+    imagenProducto: {fileID: -174389063, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
+  - nombreProducto: Papitas Moffles
+    imagenProducto: {fileID: 2779878, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
+  - nombreProducto: Papitas Papitas
+    imagenProducto: {fileID: -1341679484, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
+  - nombreProducto: Papitas Toritos
+    imagenProducto: {fileID: -942818936, guid: 5ef1fdf05ff2de74d8685361b8534f91, type: 3}
+  - nombreProducto: "Cart\xF3n de jugo"
+    imagenProducto: {fileID: 689673967, guid: 3341ba83c43cab847b7eb77ad0bff94b, type: 3}
+  - nombreProducto: Lata de Cola Loca
+    imagenProducto: {fileID: 1917001225, guid: 3341ba83c43cab847b7eb77ad0bff94b, type: 3}
+  - nombreProducto: Lata de Fasta
+    imagenProducto: {fileID: -1438240598, guid: 3341ba83c43cab847b7eb77ad0bff94b, type: 3}
+  - nombreProducto: Lata de Sprite
+    imagenProducto: {fileID: 1061885931, guid: 3341ba83c43cab847b7eb77ad0bff94b, type: 3}
 --- !u!4 &1135804290
 Transform:
   m_ObjectHideFlags: 0
@@ -6826,6 +6851,7 @@ MonoBehaviour:
   - {fileID: 570970822, guid: cdbb0a42af2fe374d94c208e194dc1ca, type: 3}
   - {fileID: -1799889676, guid: d8bd3aaef14937f47b42238ea8f9272b, type: 3}
   apuntador: {fileID: 0}
+  flecha: {fileID: 0}
   imagenApuntador: {fileID: 0}
 --- !u!4 &1150875551 stripped
 Transform:
@@ -8283,6 +8309,7 @@ MonoBehaviour:
   etiqueta: Agarrar
   tomar: 0
   agarrando: 0
+  entro: 0
   apuntador: {fileID: 0}
   flecha: {fileID: 0}
 --- !u!114 &1362321975

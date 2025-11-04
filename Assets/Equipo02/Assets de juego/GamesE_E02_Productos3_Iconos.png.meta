@@ -106,11 +106,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-12_0"
+      name: GamesE_E02_LataColaLoca_Icono
       rect:
         serializedVersion: 2
         x: 59
@@ -118,7 +131,7 @@ TextureImporter:
         width: 139
         height: 229
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -132,7 +145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-12_1"
+      name: GamesE_E02_LataSprit_Icono
       rect:
         serializedVersion: 2
         x: 315
@@ -140,7 +153,7 @@ TextureImporter:
         width: 138
         height: 228
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -154,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-12_2"
+      name: GamesE_E02_LataFasta_Icono
       rect:
         serializedVersion: 2
         x: 572
@@ -162,7 +175,7 @@ TextureImporter:
         width: 137
         height: 226
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -176,7 +189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-12_3"
+      name: GamesE_E02_CartonJugo_Icono
       rect:
         serializedVersion: 2
         x: 840
@@ -184,7 +197,7 @@ TextureImporter:
         width: 112
         height: 227
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -198,7 +211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-12_4"
+      name: GamesE_E02_Planta_Icono
       rect:
         serializedVersion: 2
         x: 68
@@ -206,7 +219,7 @@ TextureImporter:
         width: 121
         height: 235
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -235,11 +248,11 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-12_0": 1917001225
-      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-12_1": 1061885931
-      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-12_2": -1438240598
-      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-12_3": 689673967
-      "Interfaces Juego VR Ana Paula Lechuga 211253 (Versi\xF3n 3)-12_4": -1082624019
+      GamesE_E02_CartonJugo_Icono: 689673967
+      GamesE_E02_LataColaLoca_Icono: 1917001225
+      GamesE_E02_LataFasta_Icono: -1438240598
+      GamesE_E02_LataSprit_Icono: 1061885931
+      GamesE_E02_Planta_Icono: -1082624019
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
