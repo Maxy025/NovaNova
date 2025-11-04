@@ -81,6 +81,5 @@ public class Lista : MonoBehaviour
                 break;
             }
         }
-
     }
 }
