@@ -2,6 +2,7 @@ using Assets.Scripts.Juego.Canasta;
 using Assets.Scripts.Juego.Lista;
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,7 +18,11 @@ public class Lista : MonoBehaviour
     public int cantidadProductos;
     public string textoLista;
     public int lista;
+    public int listasCompletadas = 0;
+    public int record = 0;
 
+    public TMP_Text textoRonda;
+    public TMP_Text textoListasCompletadas;
 
     public List<GameObject> listaVisual = new List<GameObject>();
 
@@ -39,6 +44,10 @@ public class Lista : MonoBehaviour
         for (int i = 0; i < cantidadProductos; i++) textoLista += $"{ListaCompras.listaCompras[i]}.\n";
         lista = ListaCompras.listaCompras.Count;
         LlenarListaVisual();
+        textoRonda = GameObject.Find("Numero Ronda").GetComponentInChildren<TMP_Text>();
+        textoListasCompletadas = GameObject.Find("Listas Completadas").GetComponentInChildren<TMP_Text>();
+        record = PlayerPrefs.GetInt("record");
+        textoListasCompletadas.text = $"{listasCompletadas}/{record}";
     }
 
     // Update is called once per frame
@@ -52,6 +61,8 @@ public class Lista : MonoBehaviour
         }
         if (ListaCompras.listaCompras.Count <= 0)
         {
+            textoRonda.text = $"Ronda {++listasCompletadas}";
+            textoListasCompletadas.text = $"{listasCompletadas}/{record}";
             ListaCompras.CrearListaCompras(cantidadProductos);
             LlenarListaVisual();
             for (int i = 0; i < ListaCompras.listaCompras.Count; i++) textoLista += $"{ListaCompras.listaCompras[i]}.\n";

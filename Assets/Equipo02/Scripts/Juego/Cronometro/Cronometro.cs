@@ -18,6 +18,7 @@ public class Cronometro : MonoBehaviour
     public TMP_Text textoCronometro;
 
     public GameObject gameManager;
+    public Lista listas;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,6 +27,7 @@ public class Cronometro : MonoBehaviour
 
         contador = tiempo;
         gameOver = GameObject.Find("GameOver");
+        listas = gameManager.GetComponent<Lista>();
         textoTiempo = gameOver.transform.Find("tempo").GetComponent<TMP_Text>();
         textoPuntos = gameOver.transform.Find("puntos").GetComponent<TMP_Text>();
 
@@ -52,6 +54,7 @@ public class Cronometro : MonoBehaviour
         }
         else
         {
+            CompararRecord();
             textoCronometro.text = 0.ToString();
             gameOver.SetActive(true);
             Time.timeScale = 0;
@@ -60,6 +63,15 @@ public class Cronometro : MonoBehaviour
             textoPuntos.text = DatosJugador.Puntos.ToString();
             Puntuaciones puntuaciones = gameManager.GetComponent<Puntuaciones>();
             puntuaciones.Estrellas();
+        }
+    }
+
+    private void CompararRecord()
+    {
+        if (listas.listasCompletadas > listas.record)
+        {
+            PlayerPrefs.SetInt("record", listas.listasCompletadas);
+            PlayerPrefs.Save();
         }
     }
 }
