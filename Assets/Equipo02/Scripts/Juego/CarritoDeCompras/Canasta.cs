@@ -15,12 +15,19 @@ public class Canasta : MonoBehaviour
     public float penalizacionProductoProhibido;
     public float aumentoVelocidad;
 
+    public float tiempoAvisos, contadorAvisoP, contadorAvisoT;
+
     public float disminuirAparicion;
     public int disminuirBonificacionTiempo;
 
 
     DatosProducto datosProducto;
+
+
     GameObject gameManager;
+
+    public GameObject textoPuntosExtras, textoTiempoExtra, textoTiempoMenos;
+
     Cronometro cronometro;
     public TMP_Text textoPuntos;
     public List<GameObject> cintas;
@@ -35,12 +42,36 @@ public class Canasta : MonoBehaviour
         textoPuntos = GameObject.Find("Score").GetComponentInChildren<TMP_Text>();
         lista = gameManager.GetComponent<Lista>();
         confetti = GameObject.FindGameObjectWithTag("SpawnConfetti").GetComponent<SpawnConfetti>();
+
+        textoPuntosExtras = GameObject.Find("Puntos Extras");
+        textoTiempoExtra = GameObject.Find("Tiempo Extra");
+        textoTiempoMenos = GameObject.Find("Tiempo Menos");
+
+        textoPuntosExtras.SetActive(false);
+        textoTiempoExtra.SetActive(false);
+        textoTiempoMenos.SetActive(false);
+
+        contadorAvisoT = tiempoAvisos;
+        contadorAvisoP = tiempoAvisos;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (textoPuntosExtras.activeSelf) contadorAvisoP -= 1 * Time.deltaTime;
+        if (contadorAvisoP <= 0)
+        {
+            textoPuntosExtras.SetActive(false);
+            
+        }
+
+        if (textoTiempoExtra.activeSelf && textoTiempoMenos.activeSelf) textoTiempoExtra.SetActive(false);
+        if (textoTiempoExtra.activeSelf || textoTiempoMenos.activeSelf) contadorAvisoT -= 1 * Time.deltaTime;
+        if (contadorAvisoT <= 0)
+        {
+            textoTiempoExtra.SetActive(false);
+            textoTiempoMenos.SetActive(false);
+        }
     }
 
     public void OnTriggerEnter(Collider other)
@@ -53,11 +84,19 @@ public class Canasta : MonoBehaviour
             {
                 if (RevisarProducto.Prohibido(datosProducto.nombre))
                 {
+                    textoTiempoMenos.SetActive(true);
+                    TMP_Text texto = textoTiempoMenos.GetComponent<TMP_Text>();
+                    texto.text = $"-{penalizacionProductoProhibido}";
                     cronometro.contador -= penalizacionProductoProhibido;
+                    contadorAvisoT = tiempoAvisos;
                 }
                 else
                 {
+                    textoTiempoMenos.SetActive(true);
+                    TMP_Text texto = textoTiempoMenos.GetComponent<TMP_Text>();
+                    texto.text = $"-{penalizacionProductoEquivocado}";
                     cronometro.contador -= penalizacionProductoEquivocado;
+                    contadorAvisoT = tiempoAvisos;
                 }
                 
             }
@@ -71,6 +110,11 @@ public class Canasta : MonoBehaviour
 
             if (ListaCompras.listaCompras.Count <= 0)
             {
+                textoPuntosExtras.SetActive(true);
+                TMP_Text texto = textoPuntosExtras.GetComponent<TMP_Text>();
+                texto.text = $"+{bonificacionPuntos}";
+                contadorAvisoP = tiempoAvisos;
+
                 DatosJugador.Puntos += bonificacionPuntos;
                 textoPuntos.text = DatosJugador.Puntos.ToString();
 
@@ -80,11 +124,22 @@ public class Canasta : MonoBehaviour
                 cronometro.contador += bonificacionTiempo;
 
                 if (DatosJugador.Puntos == puntuacion.unaEstrella)
+                {
                     bonificacionTiempo -= disminuirBonificacionTiempo;
+                }
                 else if (DatosJugador.Puntos == puntuacion.dosEstrellas)
+                {
                     bonificacionTiempo -= disminuirBonificacionTiempo;
+                }
                 else if (DatosJugador.Puntos == puntuacion.tresEstrellas)
-                    bonificacionTiempo -= disminuirBonificacionTiempo/2;
+                {
+                    bonificacionTiempo -= disminuirBonificacionTiempo / 2;
+                }
+
+                textoTiempoExtra.SetActive(true);
+                texto = textoTiempoExtra.GetComponent<TMP_Text>();
+                texto.text = $"+{bonificacionTiempo}";
+                contadorAvisoT = tiempoAvisos;
 
                 for (int i = 0; i < cintas.Count; i++)
                 {
