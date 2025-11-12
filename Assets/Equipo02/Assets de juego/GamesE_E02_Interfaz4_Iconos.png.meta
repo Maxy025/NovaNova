@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 1604616e355bd624598b65a014491263
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz4_Iconos_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 554
+        width: 709
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c809186ffaeb7164c8c53aae7700e004
+      internalID: -1235249752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz4_Iconos_29
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 294
+        width: 332
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfac01608cdba740a07571d8b4a889f
+      internalID: 933074073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz4_Iconos_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 453
+        width: 500
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a9eb10c7b8c3a45b3cc63c96415c04
+      internalID: 1981538345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3d41dd45de48e41489c60d9a49d88fc2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      GamesE_E02_Interfaz4_Iconos_0: -1235249752
+      GamesE_E02_Interfaz4_Iconos_1: 1981538345
+      GamesE_E02_Interfaz4_Iconos_10: -668184044
+      GamesE_E02_Interfaz4_Iconos_11: 74197661
+      GamesE_E02_Interfaz4_Iconos_12: 837564735
+      GamesE_E02_Interfaz4_Iconos_13: -1729024068
+      GamesE_E02_Interfaz4_Iconos_14: 246200902
+      GamesE_E02_Interfaz4_Iconos_15: -1376710105
+      GamesE_E02_Interfaz4_Iconos_16: 1038442334
+      GamesE_E02_Interfaz4_Iconos_17: 1773049611
+      GamesE_E02_Interfaz4_Iconos_18: 1962844934
+      GamesE_E02_Interfaz4_Iconos_19: -967796397
+      GamesE_E02_Interfaz4_Iconos_2: 15173317
+      GamesE_E02_Interfaz4_Iconos_20: -399042707
+      GamesE_E02_Interfaz4_Iconos_21: 1325648152
+      GamesE_E02_Interfaz4_Iconos_22: -1937451215
+      GamesE_E02_Interfaz4_Iconos_23: -2078321935
+      GamesE_E02_Interfaz4_Iconos_24: 1601634066
+      GamesE_E02_Interfaz4_Iconos_25: -2109233789
+      GamesE_E02_Interfaz4_Iconos_26: -653536007
+      GamesE_E02_Interfaz4_Iconos_27: -1863382211
+      GamesE_E02_Interfaz4_Iconos_28: -1976341133
+      GamesE_E02_Interfaz4_Iconos_29: 933074073
+      GamesE_E02_Interfaz4_Iconos_3: -430171521
+      GamesE_E02_Interfaz4_Iconos_4: -492626005
+      GamesE_E02_Interfaz4_Iconos_5: 1500565720
+      GamesE_E02_Interfaz4_Iconos_6: 2089583148
+      GamesE_E02_Interfaz4_Iconos_7: -1370596628
+      GamesE_E02_Interfaz4_Iconos_8: -1125059037
+      GamesE_E02_Interfaz4_Iconos_9: -137104233
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

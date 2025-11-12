@@ -20,6 +20,7 @@ public class Lista : MonoBehaviour
     public int lista;
     public int listasCompletadas = 0;
     public int record = 0;
+    public Sprite palomita;
 
     public TMP_Text textoRonda;
     public TMP_Text textoListasCompletadas;
@@ -88,7 +89,7 @@ public class Lista : MonoBehaviour
 
             if (imageProducto.sprite == imagenesProductos[nombre])
             {
-                imageProducto.sprite = null;
+                imageProducto.sprite = palomita;
                 break;
             }
         }
