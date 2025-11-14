@@ -6,7 +6,11 @@ public class MovimientoCinta : MonoBehaviour
     public bool sobreCinta;
     public string etiqueta;
 
+    //public float speedCintaAnim = 0.7f;
+
     AjusteCinta ajustes;
+
+    //CintaAlembicLoop velocidadAnimCinta;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -37,6 +41,12 @@ public class MovimientoCinta : MonoBehaviour
                 default:
                     break;
             }
+
+            /*if (velocidadAnimCinta != null)
+            {
+                // Aplicar la fórmula de la velocidad de la animación
+                velocidadAnimCinta.speed = speedCintaAnim * ajustes.velocidad;
+            }*/
         }
     }
     public void OnTriggerEnter(Collider other)

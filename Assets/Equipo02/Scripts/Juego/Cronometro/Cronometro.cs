@@ -12,6 +12,7 @@ public class Cronometro : MonoBehaviour
     public float contadorTotal = 0;
 
     public GameObject gameOver;
+    public TMP_Text textoTitulo;
     public TMP_Text textoTiempo;
     public TMP_Text textoPuntos;
 
@@ -28,6 +29,7 @@ public class Cronometro : MonoBehaviour
         contador = tiempo;
         gameOver = GameObject.Find("GameOver");
         listas = gameManager.GetComponent<Lista>();
+        textoTitulo = gameOver.transform.Find("Titulo").GetComponent<TMP_Text>();
         textoTiempo = gameOver.transform.Find("tempo").GetComponent<TMP_Text>();
         textoPuntos = gameOver.transform.Find("puntos").GetComponent<TMP_Text>();
 
@@ -72,6 +74,7 @@ public class Cronometro : MonoBehaviour
         {
             PlayerPrefs.SetInt("record", listas.listasCompletadas);
             PlayerPrefs.Save();
+            textoTitulo.text = "Nuevo record";
         }
     }
 }
