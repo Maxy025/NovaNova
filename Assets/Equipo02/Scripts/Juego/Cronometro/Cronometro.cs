@@ -21,6 +21,8 @@ public class Cronometro : MonoBehaviour
     public GameObject gameManager;
     public Lista listas;
 
+    private bool sonidoUltimos30 = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -48,6 +50,12 @@ public class Cronometro : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (contador <= 30 && !sonidoUltimos30)
+        {
+            sonidoUltimos30 = true;
+            AudioManager.instance.PlayMusic(AudioManager.instance.bg_last30, true);
+        }
+
         textoCronometro.text = Mathf.FloorToInt(contador).ToString();
         if (contador > 0)
         {

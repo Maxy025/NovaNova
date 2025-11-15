@@ -28,6 +28,7 @@ public class Inicio : MonoBehaviour
         Time.timeScale = 1;
         inicio.SetActive(false);
         interfaz.SetActive(true);
+        AudioManager.instance.PlayMusic(AudioManager.instance.bg_theme);
         Cursor.lockState = CursorLockMode.Locked;
         esElIncio = false;
     }

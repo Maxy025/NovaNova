@@ -3485,6 +3485,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 378347679}
   m_CullTransparentMesh: 1
+--- !u!1 &378678879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378678881}
+  - component: {fileID: 378678880}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &378678880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378678879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d167a72374b044a8ac688fe9adb8ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bg_theme: {fileID: 8300000, guid: a34fb0b4bd8ea9f4596679c466208a60, type: 3}
+  bg_last30: {fileID: 8300000, guid: f5a51395624556d408bd75d01c143480, type: 3}
+  sfx_Correcto: {fileID: 8300000, guid: cf13a01d37980104fba94bd08aaa995e, type: 3}
+  sfx_Erroneo: {fileID: 8300000, guid: 28bad3386e36f3b45a5ea2d9e8d13340, type: 3}
+  sfx_SigRonda: {fileID: 8300000, guid: ad2b53ec9c98c194eb3a3a45fa95f4d2, type: 3}
+--- !u!4 &378678881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378678879}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 449.67755, y: 0, z: 676.30096}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &384632309 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
@@ -15105,3 +15154,5 @@ SceneRoots:
   - {fileID: 854466959}
   - {fileID: 1436343680}
   - {fileID: 1658989016}
+  - {fileID: 361655489}
+  - {fileID: 378678881}

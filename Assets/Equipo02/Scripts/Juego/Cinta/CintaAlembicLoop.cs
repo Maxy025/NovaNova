@@ -20,7 +20,6 @@ public class CintaAlembicLoop : MonoBehaviour
         if (player == null)
             return;
 
-        Debug.Log(player.CurrentTime);
 
         // Avanzar el tiempo de la animación según la velocidad
         player.CurrentTime += speed * Time.deltaTime;
@@ -28,7 +27,6 @@ public class CintaAlembicLoop : MonoBehaviour
         // Si llega al final, reiniciar (loop)
         if (player.CurrentTime > 1)
         {
-            Debug.Log("Se debe reiniciar la animación");
             player.CurrentTime = 0;
         }
     }
