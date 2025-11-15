@@ -10,6 +10,8 @@ TagManager:
   - Agarrar
   - AjustesCintas
   - SpawnConfetti
+  - CintaAnim
+  - AudioSrc
   layers:
   - Default
   - TransparentFX

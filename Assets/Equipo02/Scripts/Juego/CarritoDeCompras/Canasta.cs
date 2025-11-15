@@ -35,7 +35,9 @@ public class Canasta : MonoBehaviour
     public TMP_Text textoPuntos;
     public List<GameObject> cintas;
     public Lista lista;
+
     public SpawnConfetti confetti;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -95,6 +97,9 @@ public class Canasta : MonoBehaviour
                     texto.text = $"-{penalizacionProductoProhibido}";
                     cronometro.contador -= penalizacionProductoProhibido;
                     contadorAvisoT = tiempoAvisos;
+
+                    AudioManager.instance.PlaySFX(AudioManager.instance.sfx_Erroneo);
+                    Debug.Log("PRODUCTO ERRONEO");
                 }
                 else
                 {
@@ -103,6 +108,9 @@ public class Canasta : MonoBehaviour
                     texto.text = $"-{penalizacionProductoEquivocado}";
                     cronometro.contador -= penalizacionProductoEquivocado;
                     contadorAvisoT = tiempoAvisos;
+
+                    Debug.Log("PRODUCTO ERRONEO");
+                    AudioManager.instance.PlaySFX(AudioManager.instance.sfx_Erroneo);
                 }
                 
             }
@@ -111,6 +119,7 @@ public class Canasta : MonoBehaviour
             {
                 lista.MarcarListaVisual(datosProducto.nombre);
                 confetti.ActivarConfetti();
+                AudioManager.instance.PlaySFX(AudioManager.instance.sfx_Correcto);
                 RevisarProducto.Eliminar();
             }
 
@@ -118,6 +127,8 @@ public class Canasta : MonoBehaviour
             {
                 float copia1 = anCinta1;
                 float copia2 = anCinta2;
+
+                AudioManager.instance.PlaySFX(AudioManager.instance.sfx_SigRonda);
 
                 textoPuntosExtras.SetActive(true);
                 TMP_Text texto = textoPuntosExtras.GetComponent<TMP_Text>();

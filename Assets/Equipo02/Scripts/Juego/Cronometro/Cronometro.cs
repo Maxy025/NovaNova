@@ -12,6 +12,7 @@ public class Cronometro : MonoBehaviour
     public float contadorTotal = 0;
 
     public GameObject gameOver;
+    public TMP_Text textoTitulo;
     public TMP_Text textoTiempo;
     public TMP_Text textoPuntos;
 
@@ -19,6 +20,8 @@ public class Cronometro : MonoBehaviour
 
     public GameObject gameManager;
     public Lista listas;
+
+    private bool sonidoUltimos30 = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,6 +31,7 @@ public class Cronometro : MonoBehaviour
         contador = tiempo;
         gameOver = GameObject.Find("GameOver");
         listas = gameManager.GetComponent<Lista>();
+        textoTitulo = gameOver.transform.Find("Titulo").GetComponent<TMP_Text>();
         textoTiempo = gameOver.transform.Find("tempo").GetComponent<TMP_Text>();
         textoPuntos = gameOver.transform.Find("puntos").GetComponent<TMP_Text>();
 
@@ -46,6 +50,12 @@ public class Cronometro : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (contador <= 30 && !sonidoUltimos30)
+        {
+            sonidoUltimos30 = true;
+            AudioManager.instance.PlayMusic(AudioManager.instance.bg_last30, true);
+        }
+
         textoCronometro.text = Mathf.FloorToInt(contador).ToString();
         if (contador > 0)
         {
@@ -72,6 +82,7 @@ public class Cronometro : MonoBehaviour
         {
             PlayerPrefs.SetInt("record", listas.listasCompletadas);
             PlayerPrefs.Save();
+            textoTitulo.text = "Nuevo record";
         }
     }
 }

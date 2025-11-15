@@ -48,7 +48,8 @@ public class Lista : MonoBehaviour
         textoRonda = GameObject.Find("Numero Ronda").GetComponentInChildren<TMP_Text>();
         textoListasCompletadas = GameObject.Find("Listas Completadas").GetComponentInChildren<TMP_Text>();
         record = PlayerPrefs.GetInt("record");
-        textoListasCompletadas.text = $"{listasCompletadas}/{record}";
+        textoRonda.text = $"Ronda {++listasCompletadas}";
+        textoListasCompletadas.text = $"Record: {record}";
     }
 
     // Update is called once per frame
@@ -63,7 +64,7 @@ public class Lista : MonoBehaviour
         if (ListaCompras.listaCompras.Count <= 0)
         {
             textoRonda.text = $"Ronda {++listasCompletadas}";
-            textoListasCompletadas.text = $"{listasCompletadas}/{record}";
+            textoListasCompletadas.text = $"Record: {record}";
             ListaCompras.CrearListaCompras(cantidadProductos);
             LlenarListaVisual();
             for (int i = 0; i < ListaCompras.listaCompras.Count; i++) textoLista += $"{ListaCompras.listaCompras[i]}.\n";
