@@ -15,7 +15,7 @@ public class ImagenCursor : MonoBehaviour
 
         apuntador = GameObject.Find("CrossHairHand");
         imagenApuntador = apuntador.GetComponent<Image>();
-        flecha = GameObject.Find("Flecha");
+        flecha = GameObject.Find("FlechaModelo");
     }
 
     private void Update()

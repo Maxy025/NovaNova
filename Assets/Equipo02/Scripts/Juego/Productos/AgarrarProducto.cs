@@ -17,7 +17,7 @@ public class AgarrarProducto : MonoBehaviour
     void Start()
     {
         apuntador = GameObject.Find("CrossHairHand");
-        flecha = GameObject.Find("Flecha");
+        flecha = GameObject.Find("FlechaModelo");
     }
 
     // Update is called once per frame

@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 4a87dd554fd5f2c4786d51359f24f306
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 786
+        width: 195
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b985d47b9f23841bd6e8b218b6cc3f
+      internalID: 290796882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 787
+        width: 245
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5c3a4ab8dad8b40aa50f67a0518c90
+      internalID: -741123990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 198
+        width: 441
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77deb34de8b0663409bf53ef8265dc90
+      internalID: 792023477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_3
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 145
+        width: 441
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a9b68dc8023b544a2f31c72dbefc23
+      internalID: 376898231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_4
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 787
+        width: 245
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ee2b7bb2ad89d469b24f15f5fe37a5
+      internalID: -2071238047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_5
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 91
+        width: 369
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad7c49cd34360e42bd6ab06b191c44b
+      internalID: -1373919391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_6
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 37
+        width: 486
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f899c58708467ec4386aee875d570021
+      internalID: 749742017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_30
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 582
+        width: 456
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4446d96101b5590429f63e54580581c8
+      internalID: 1502358859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_103
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 320
+        width: 922
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f978de3082f588541b6fa98303dae35e
+      internalID: 1738541254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_130
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 46
+        width: 472
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0229caec100cf4abe684103ef1865f
+      internalID: 2056396127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_211
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 724
+        width: 356
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a4a91a8ef26d14c97b383db978ff04
+      internalID: -1156416226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_212
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 663
+        width: 362
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81eec3869922fae448aecdea0c74c900
+      internalID: -617102251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_213
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 601
+        width: 365
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df9cbc43e95f1740aefe38c1f3f0e13
+      internalID: 1666135635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GamesE_E02_Interfaz_Iconos_214
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 540
+        width: 394
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad4399bd9879b2408195c989766a097
+      internalID: 1765320623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 76bf0fe5264d38a40a2be01f50698464
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      GamesE_E02_Interfaz_Iconos_0: 290796882
+      GamesE_E02_Interfaz_Iconos_1: -741123990
+      GamesE_E02_Interfaz_Iconos_10: -689175678
+      GamesE_E02_Interfaz_Iconos_100: -1502454818
+      GamesE_E02_Interfaz_Iconos_101: 1804148096
+      GamesE_E02_Interfaz_Iconos_102: 1434898866
+      GamesE_E02_Interfaz_Iconos_103: 1738541254
+      GamesE_E02_Interfaz_Iconos_104: 168584535
+      GamesE_E02_Interfaz_Iconos_105: -576797982
+      GamesE_E02_Interfaz_Iconos_106: 191324987
+      GamesE_E02_Interfaz_Iconos_107: -448099283
+      GamesE_E02_Interfaz_Iconos_108: -2054549366
+      GamesE_E02_Interfaz_Iconos_109: 1169176467
+      GamesE_E02_Interfaz_Iconos_11: 1940779671
+      GamesE_E02_Interfaz_Iconos_110: -1027436800
+      GamesE_E02_Interfaz_Iconos_111: -1095710203
+      GamesE_E02_Interfaz_Iconos_112: -829036939
+      GamesE_E02_Interfaz_Iconos_113: 573685112
+      GamesE_E02_Interfaz_Iconos_114: -750027170
+      GamesE_E02_Interfaz_Iconos_115: 332654838
+      GamesE_E02_Interfaz_Iconos_116: -208578961
+      GamesE_E02_Interfaz_Iconos_117: -806180296
+      GamesE_E02_Interfaz_Iconos_118: -1782020263
+      GamesE_E02_Interfaz_Iconos_119: 1455018542
+      GamesE_E02_Interfaz_Iconos_12: -928223843
+      GamesE_E02_Interfaz_Iconos_120: -124633128
+      GamesE_E02_Interfaz_Iconos_121: -856319554
+      GamesE_E02_Interfaz_Iconos_122: 1306541240
+      GamesE_E02_Interfaz_Iconos_123: -2001563481
+      GamesE_E02_Interfaz_Iconos_124: 571722601
+      GamesE_E02_Interfaz_Iconos_125: 1895942758
+      GamesE_E02_Interfaz_Iconos_126: -452021597
+      GamesE_E02_Interfaz_Iconos_127: -1532762208
+      GamesE_E02_Interfaz_Iconos_128: -369084912
+      GamesE_E02_Interfaz_Iconos_129: -781908284
+      GamesE_E02_Interfaz_Iconos_13: 208139627
+      GamesE_E02_Interfaz_Iconos_130: 2056396127
+      GamesE_E02_Interfaz_Iconos_131: 419453693
+      GamesE_E02_Interfaz_Iconos_132: 1017485421
+      GamesE_E02_Interfaz_Iconos_133: -2098716780
+      GamesE_E02_Interfaz_Iconos_134: 1796359405
+      GamesE_E02_Interfaz_Iconos_135: 1581680598
+      GamesE_E02_Interfaz_Iconos_136: -762907433
+      GamesE_E02_Interfaz_Iconos_137: -1260566066
+      GamesE_E02_Interfaz_Iconos_138: -295093147
+      GamesE_E02_Interfaz_Iconos_139: 1270417260
+      GamesE_E02_Interfaz_Iconos_14: 900814610
+      GamesE_E02_Interfaz_Iconos_140: 1097552939
+      GamesE_E02_Interfaz_Iconos_141: 2078704408
+      GamesE_E02_Interfaz_Iconos_142: -1731916943
+      GamesE_E02_Interfaz_Iconos_143: 1421988450
+      GamesE_E02_Interfaz_Iconos_144: 775062764
+      GamesE_E02_Interfaz_Iconos_145: 1044157093
+      GamesE_E02_Interfaz_Iconos_146: -980260804
+      GamesE_E02_Interfaz_Iconos_147: 128472960
+      GamesE_E02_Interfaz_Iconos_148: -850245724
+      GamesE_E02_Interfaz_Iconos_149: -452535189
+      GamesE_E02_Interfaz_Iconos_15: -1097444063
+      GamesE_E02_Interfaz_Iconos_150: 320424715
+      GamesE_E02_Interfaz_Iconos_151: -387812695
+      GamesE_E02_Interfaz_Iconos_152: -381061907
+      GamesE_E02_Interfaz_Iconos_153: -683869323
+      GamesE_E02_Interfaz_Iconos_154: -701382203
+      GamesE_E02_Interfaz_Iconos_155: 1850607814
+      GamesE_E02_Interfaz_Iconos_156: 2076090222
+      GamesE_E02_Interfaz_Iconos_157: 1468706445
+      GamesE_E02_Interfaz_Iconos_158: 748926360
+      GamesE_E02_Interfaz_Iconos_159: 1074700278
+      GamesE_E02_Interfaz_Iconos_16: -1494052544
+      GamesE_E02_Interfaz_Iconos_160: -1322771415
+      GamesE_E02_Interfaz_Iconos_161: -1254447403
+      GamesE_E02_Interfaz_Iconos_162: 533269844
+      GamesE_E02_Interfaz_Iconos_163: -41986472
+      GamesE_E02_Interfaz_Iconos_164: 1355489298
+      GamesE_E02_Interfaz_Iconos_165: -1051241961
+      GamesE_E02_Interfaz_Iconos_166: 1290373631
+      GamesE_E02_Interfaz_Iconos_167: -1963392269
+      GamesE_E02_Interfaz_Iconos_168: -1099970001
+      GamesE_E02_Interfaz_Iconos_169: 1982660423
+      GamesE_E02_Interfaz_Iconos_17: -2059552497
+      GamesE_E02_Interfaz_Iconos_170: 900091367
+      GamesE_E02_Interfaz_Iconos_171: -852999454
+      GamesE_E02_Interfaz_Iconos_172: 578899266
+      GamesE_E02_Interfaz_Iconos_173: -1128686835
+      GamesE_E02_Interfaz_Iconos_174: -714517054
+      GamesE_E02_Interfaz_Iconos_175: -2052927022
+      GamesE_E02_Interfaz_Iconos_176: 1004366355
+      GamesE_E02_Interfaz_Iconos_177: 1869744175
+      GamesE_E02_Interfaz_Iconos_178: -1495477937
+      GamesE_E02_Interfaz_Iconos_179: 1559915893
+      GamesE_E02_Interfaz_Iconos_18: 519981114
+      GamesE_E02_Interfaz_Iconos_180: 137636391
+      GamesE_E02_Interfaz_Iconos_181: -1821612328
+      GamesE_E02_Interfaz_Iconos_182: -1700689958
+      GamesE_E02_Interfaz_Iconos_183: -396272862
+      GamesE_E02_Interfaz_Iconos_184: -1540163853
+      GamesE_E02_Interfaz_Iconos_185: 1282717000
+      GamesE_E02_Interfaz_Iconos_186: -201153511
+      GamesE_E02_Interfaz_Iconos_187: -790761105
+      GamesE_E02_Interfaz_Iconos_188: 2066929776
+      GamesE_E02_Interfaz_Iconos_189: -1768969441
+      GamesE_E02_Interfaz_Iconos_19: -1005640069
+      GamesE_E02_Interfaz_Iconos_190: -581455356
+      GamesE_E02_Interfaz_Iconos_191: -437783325
+      GamesE_E02_Interfaz_Iconos_192: 1385214772
+      GamesE_E02_Interfaz_Iconos_193: -820449961
+      GamesE_E02_Interfaz_Iconos_194: -101191490
+      GamesE_E02_Interfaz_Iconos_195: 2093681421
+      GamesE_E02_Interfaz_Iconos_196: 869232747
+      GamesE_E02_Interfaz_Iconos_197: -6185651
+      GamesE_E02_Interfaz_Iconos_198: 18706267
+      GamesE_E02_Interfaz_Iconos_199: 1914344876
+      GamesE_E02_Interfaz_Iconos_2: 792023477
+      GamesE_E02_Interfaz_Iconos_20: 1086333066
+      GamesE_E02_Interfaz_Iconos_200: 389487834
+      GamesE_E02_Interfaz_Iconos_201: -6308478
+      GamesE_E02_Interfaz_Iconos_202: -871748519
+      GamesE_E02_Interfaz_Iconos_203: -880123178
+      GamesE_E02_Interfaz_Iconos_204: -481038420
+      GamesE_E02_Interfaz_Iconos_205: -74093146
+      GamesE_E02_Interfaz_Iconos_206: 470814253
+      GamesE_E02_Interfaz_Iconos_207: -326896954
+      GamesE_E02_Interfaz_Iconos_208: 1205184714
+      GamesE_E02_Interfaz_Iconos_209: 283390580
+      GamesE_E02_Interfaz_Iconos_21: -19067710
+      GamesE_E02_Interfaz_Iconos_210: 986463538
+      GamesE_E02_Interfaz_Iconos_211: -1156416226
+      GamesE_E02_Interfaz_Iconos_212: -617102251
+      GamesE_E02_Interfaz_Iconos_213: 1666135635
+      GamesE_E02_Interfaz_Iconos_214: 1765320623
+      GamesE_E02_Interfaz_Iconos_22: 419036657
+      GamesE_E02_Interfaz_Iconos_23: -820907862
+      GamesE_E02_Interfaz_Iconos_24: -1100919516
+      GamesE_E02_Interfaz_Iconos_25: -1423096757
+      GamesE_E02_Interfaz_Iconos_26: -1577296110
+      GamesE_E02_Interfaz_Iconos_27: 1118038034
+      GamesE_E02_Interfaz_Iconos_28: 890801287
+      GamesE_E02_Interfaz_Iconos_29: 92997174
+      GamesE_E02_Interfaz_Iconos_3: 376898231
+      GamesE_E02_Interfaz_Iconos_30: 1502358859
+      GamesE_E02_Interfaz_Iconos_31: -722376206
+      GamesE_E02_Interfaz_Iconos_32: -1585474403
+      GamesE_E02_Interfaz_Iconos_33: 67679625
+      GamesE_E02_Interfaz_Iconos_34: 1176433690
+      GamesE_E02_Interfaz_Iconos_35: 1049435985
+      GamesE_E02_Interfaz_Iconos_36: -130381802
+      GamesE_E02_Interfaz_Iconos_37: 1783692622
+      GamesE_E02_Interfaz_Iconos_38: 1282880539
+      GamesE_E02_Interfaz_Iconos_39: 1912499784
+      GamesE_E02_Interfaz_Iconos_4: -2071238047
+      GamesE_E02_Interfaz_Iconos_40: -1639971018
+      GamesE_E02_Interfaz_Iconos_41: 1727765528
+      GamesE_E02_Interfaz_Iconos_42: -341627335
+      GamesE_E02_Interfaz_Iconos_43: 1102770450
+      GamesE_E02_Interfaz_Iconos_44: -1994516915
+      GamesE_E02_Interfaz_Iconos_45: 1116200397
+      GamesE_E02_Interfaz_Iconos_46: 2098993165
+      GamesE_E02_Interfaz_Iconos_47: -1252510831
+      GamesE_E02_Interfaz_Iconos_48: -1872979761
+      GamesE_E02_Interfaz_Iconos_49: 1091487857
+      GamesE_E02_Interfaz_Iconos_5: -1373919391
+      GamesE_E02_Interfaz_Iconos_50: 1421517033
+      GamesE_E02_Interfaz_Iconos_51: 1544786233
+      GamesE_E02_Interfaz_Iconos_52: 300641721
+      GamesE_E02_Interfaz_Iconos_53: 735452666
+      GamesE_E02_Interfaz_Iconos_54: 1471119565
+      GamesE_E02_Interfaz_Iconos_55: 1482201984
+      GamesE_E02_Interfaz_Iconos_56: -548886953
+      GamesE_E02_Interfaz_Iconos_57: -1587827546
+      GamesE_E02_Interfaz_Iconos_58: -306821126
+      GamesE_E02_Interfaz_Iconos_59: -1741316416
+      GamesE_E02_Interfaz_Iconos_6: 749742017
+      GamesE_E02_Interfaz_Iconos_60: -425043285
+      GamesE_E02_Interfaz_Iconos_61: 318261243
+      GamesE_E02_Interfaz_Iconos_62: -202128274
+      GamesE_E02_Interfaz_Iconos_63: -575580594
+      GamesE_E02_Interfaz_Iconos_64: 107213136
+      GamesE_E02_Interfaz_Iconos_65: -1196716433
+      GamesE_E02_Interfaz_Iconos_66: -208479121
+      GamesE_E02_Interfaz_Iconos_67: -1079300819
+      GamesE_E02_Interfaz_Iconos_68: -970920491
+      GamesE_E02_Interfaz_Iconos_69: -1283886084
+      GamesE_E02_Interfaz_Iconos_7: -199986295
+      GamesE_E02_Interfaz_Iconos_70: 919629581
+      GamesE_E02_Interfaz_Iconos_71: 1313498160
+      GamesE_E02_Interfaz_Iconos_72: 998089495
+      GamesE_E02_Interfaz_Iconos_73: -1600862932
+      GamesE_E02_Interfaz_Iconos_74: -1704447915
+      GamesE_E02_Interfaz_Iconos_75: -996548904
+      GamesE_E02_Interfaz_Iconos_76: -965065866
+      GamesE_E02_Interfaz_Iconos_77: 1401459061
+      GamesE_E02_Interfaz_Iconos_78: -596503633
+      GamesE_E02_Interfaz_Iconos_79: -1293105393
+      GamesE_E02_Interfaz_Iconos_8: -433065327
+      GamesE_E02_Interfaz_Iconos_80: 1418611713
+      GamesE_E02_Interfaz_Iconos_81: -463684204
+      GamesE_E02_Interfaz_Iconos_82: 1096875904
+      GamesE_E02_Interfaz_Iconos_83: -316151020
+      GamesE_E02_Interfaz_Iconos_84: -962399338
+      GamesE_E02_Interfaz_Iconos_85: -1685650164
+      GamesE_E02_Interfaz_Iconos_86: 1129759626
+      GamesE_E02_Interfaz_Iconos_87: 1790222408
+      GamesE_E02_Interfaz_Iconos_88: 919183429
+      GamesE_E02_Interfaz_Iconos_89: -1816923552
+      GamesE_E02_Interfaz_Iconos_9: -384487626
+      GamesE_E02_Interfaz_Iconos_90: -1631447323
+      GamesE_E02_Interfaz_Iconos_91: -570456525
+      GamesE_E02_Interfaz_Iconos_92: -547138110
+      GamesE_E02_Interfaz_Iconos_93: 196294238
+      GamesE_E02_Interfaz_Iconos_94: 2127694184
+      GamesE_E02_Interfaz_Iconos_95: -857812848
+      GamesE_E02_Interfaz_Iconos_96: 77250149
+      GamesE_E02_Interfaz_Iconos_97: -734816160
+      GamesE_E02_Interfaz_Iconos_98: 688046911
+      GamesE_E02_Interfaz_Iconos_99: 695114714
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

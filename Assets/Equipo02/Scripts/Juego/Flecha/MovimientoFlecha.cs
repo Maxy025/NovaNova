@@ -7,13 +7,13 @@ public class MovimientoFlecha : MonoBehaviour
     float contador = 0;
     bool arriba = true;
 
-    public MeshRenderer flecha;
+    public GameObject flecha;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        flecha = GetComponent<MeshRenderer>();
-        flecha.enabled = false;
+        flecha = GameObject.Find("FlechaModelo");
+        flecha.GetComponent<MeshRenderer>().enabled = false;
     }
 
     // Update is called once per frame
