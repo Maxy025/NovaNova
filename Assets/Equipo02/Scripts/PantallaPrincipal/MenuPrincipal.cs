@@ -8,7 +8,7 @@ public class MenuPrincio : MonoBehaviour
     public void IniciarJuego()
     {
         //audioManager.PlaySFX(audioManager.botones);
-        SceneManager.LoadScene("Juego", LoadSceneMode.Single);//Metodo usado para cargar la escena del juego cuando el jugador presiona un boton
+        SceneManager.LoadScene("GamesE_E02_NovaNova_Nivel01", LoadSceneMode.Single);//Metodo usado para cargar la escena del juego cuando el jugador presiona un boton
     }
 
     public void MenuPrincipal()
