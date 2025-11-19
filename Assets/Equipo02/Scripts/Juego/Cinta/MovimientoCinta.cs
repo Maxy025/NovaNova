@@ -42,11 +42,6 @@ public class MovimientoCinta : MonoBehaviour
                     break;
             }
 
-            /*if (velocidadAnimCinta != null)
-            {
-                // Aplicar la fórmula de la velocidad de la animación
-                velocidadAnimCinta.speed = speedCintaAnim * ajustes.velocidad;
-            }*/
         }
     }
     public void OnTriggerEnter(Collider other)

@@ -15,9 +15,6 @@ public class Canasta : MonoBehaviour
     public float penalizacionProductoProhibido;
     public float aumentoVelocidad;
 
-    public float anCinta1, anCinta2;
-    float velCinta1, velCinta2;
-
     public float tiempoAvisos, contadorAvisoP, contadorAvisoT;
 
     public float disminuirAparicion;
@@ -59,8 +56,6 @@ public class Canasta : MonoBehaviour
         contadorAvisoT = tiempoAvisos;
         contadorAvisoP = tiempoAvisos;
 
-        velCinta1 = anCinta1;
-        velCinta2 = anCinta2;
     }
 
     // Update is called once per frame
@@ -125,8 +120,6 @@ public class Canasta : MonoBehaviour
 
             if (ListaCompras.listaCompras.Count <= 0)
             {
-                float copia1 = anCinta1;
-                float copia2 = anCinta2;
 
                 AudioManager.instance.PlaySFX(AudioManager.instance.sfx_SigRonda);
 
@@ -165,19 +158,7 @@ public class Canasta : MonoBehaviour
                 {
                     
                     AjusteCinta ajuste = cintas[i].GetComponent<AjusteCinta>();
-                    CintaAlembicLoop cintaAnimacion = cintas[i].GetComponentInChildren<CintaAlembicLoop>();
                     ajuste.velocidad += aumentoVelocidad;
-                    if (cintaAnimacion.speed == copia1)
-                    {
-                        cintaAnimacion.speed += (aumentoVelocidad * velCinta1) / 1;
-                        anCinta1 = cintaAnimacion.speed;
-                    }
-                    else if (cintaAnimacion.speed == copia2)
-                    {
-                        cintaAnimacion.speed += (aumentoVelocidad * velCinta2) / 1;
-                        anCinta2 = cintaAnimacion.speed;
-                    }
-
                     SpawProducto spaw = cintas[i].transform.Find("SpawProductos").GetComponent<SpawProducto>();
                     spaw.tiempoAparicion -= disminuirAparicion;
                 }
