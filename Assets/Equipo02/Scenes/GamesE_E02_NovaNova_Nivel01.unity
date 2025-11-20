@@ -4829,6 +4829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escenario_mueble02
       objectReference: {fileID: 0}
+    - target: {fileID: 7951366740762987709, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5101,6 +5105,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6460980933711284637, guid: bf29c797c307ea0428379392d9713c45, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: bf29c797c307ea0428379392d9713c45, type: 3}
       propertyPath: m_Name
       value: Escenario_refrigerador (1)
@@ -9396,6 +9404,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
       propertyPath: m_Name
       value: Escenario_mueble01 (1)
@@ -9592,6 +9604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escenario_carrito
       objectReference: {fileID: 0}
+    - target: {fileID: 6491080927637606411, guid: 5d71c21f82abc4c4f8ce632152e063df, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10449,6 +10465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escenario_mueble02 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7951366740762987709, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11132,6 +11152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escenario_mueble02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7951366740762987709, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11577,6 +11601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escenario_mueble02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7951366740762987709, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11849,6 +11877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escenario_mueble02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7951366740762987709, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11906,6 +11938,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
       propertyPath: m_Name
       value: Escenario_mueble01 (3)
@@ -12975,6 +13011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escenario_mueble02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7951366740762987709, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13032,6 +13072,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
       propertyPath: m_Name
       value: Escenario_mueble01 (2)
@@ -13346,6 +13390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escenario_mueble02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7951366740762987709, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13626,6 +13674,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6460980933711284637, guid: bf29c797c307ea0428379392d9713c45, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: bf29c797c307ea0428379392d9713c45, type: 3}
       propertyPath: m_Name
       value: Escenario_refrigerador
@@ -13762,6 +13814,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
       propertyPath: m_Name
       value: Escenario_mueble01
@@ -14053,6 +14109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escenario_mueble02 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7951366740762987709, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
