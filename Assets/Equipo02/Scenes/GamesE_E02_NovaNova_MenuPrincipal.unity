@@ -293,7 +293,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4904258025417938916, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+  - {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -383,6 +383,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
       propertyPath: m_Name
       value: "GamesE_E02_EstanteriaPeque\xF1a_Modelo"
@@ -1216,6 +1220,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6460980933711284637, guid: bf29c797c307ea0428379392d9713c45, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: bf29c797c307ea0428379392d9713c45, type: 3}
       propertyPath: m_Name
       value: GamesE_E02_Refrigerador_Modelo (2)
@@ -1516,6 +1524,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
       propertyPath: m_Name
       value: "GamesE_E02_EstanteriaPeque\xF1a_Modelo (1)"
@@ -1689,6 +1701,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -54.392
       objectReference: {fileID: 0}
+    - target: {fileID: 7951366740762987709, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2001,6 +2017,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6460980933711284637, guid: bf29c797c307ea0428379392d9713c45, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: bf29c797c307ea0428379392d9713c45, type: 3}
       propertyPath: m_Name
       value: GamesE_E02_Refrigerador_Modelo (1)
@@ -2189,6 +2209,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6460980933711284637, guid: bf29c797c307ea0428379392d9713c45, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: bf29c797c307ea0428379392d9713c45, type: 3}
       propertyPath: m_Name
       value: GamesE_E02_Refrigerador_Modelo
@@ -2254,7 +2278,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4904258025417938916, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+  - {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2461,7 +2485,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4904258025417938916, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+  - {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2856,6 +2880,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
       propertyPath: m_Name
       value: "GamesE_E02_EstanteriaPeque\xF1a_Modelo (2)"
@@ -3554,6 +3582,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6460980933711284637, guid: bf29c797c307ea0428379392d9713c45, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: bf29c797c307ea0428379392d9713c45, type: 3}
       propertyPath: m_Name
       value: GamesE_E02_Refrigerador_Modelo (3)
@@ -3619,7 +3651,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4904258025417938916, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+  - {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3709,6 +3741,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     - target: {fileID: 919132149155446097, guid: 434b231247bd823488fbf8d2c618a4bd, type: 3}
       propertyPath: m_Name
       value: "GamesE_E02_EstanteriaPeque\xF1a_Modelo (3)"
@@ -4331,6 +4367,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -54.392
       objectReference: {fileID: 0}
+    - target: {fileID: 7951366740762987709, guid: 81864aa7b2814ad4a9a0389efaa9cb6d, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f616b3e3e4296bb40a3f2312171eda27, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -4679,7 +4719,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1858852932}
-  - component: {fileID: 1858852931}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -4687,19 +4726,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1858852931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1858852930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1628f706703744940b6453c5a55c4b28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  creditos: {fileID: 0}
 --- !u!4 &1858852932
 Transform:
   m_ObjectHideFlags: 0

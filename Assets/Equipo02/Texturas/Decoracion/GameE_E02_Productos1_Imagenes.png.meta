@@ -1,0 +1,1088 @@
+fileFormatVersion: 2
+guid: 5a64e51864e67a549a91f2302d56f5d1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 818
+        width: 78
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba2b277f1dc1aa49a1b3a9e9cea80b7
+      internalID: -439869463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 819
+        width: 77
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed969405f04e044cb86791470cfca2e
+      internalID: 905737853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 829
+        width: 73
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b926d4f2050337647a8f5917f47b76bb
+      internalID: 1558039003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_3
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 826
+        width: 77
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033dec7cd72303840bdbbb10848941ce
+      internalID: -755985651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_4
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 804
+        width: 79
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f12b7da5decb941b8f92df38b537f1
+      internalID: -241154377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 699
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865018585e5a879409bcf52c4f0138be
+      internalID: 1956043889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 724
+        width: 79
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b5b189969ddf9458d1ae0d854ecee9
+      internalID: 1156983771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 703
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48be450d5b1012b4c90436068481ec0c
+      internalID: 1167698197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_8
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 705
+        width: 41
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e62766c2065bf2418fb7e01bc496210
+      internalID: 496138123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_9
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 700
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2760779a1e457418f39b4aaffffb04
+      internalID: -827883849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 602
+        width: 18
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2b6b2142ef41245a49a8454fbea86a
+      internalID: -833839922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_11
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 599
+        width: 27
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77445b0a1b1bd343bf8982f4efb14e6
+      internalID: 121028247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_12
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 599
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af46de8e2602e4247aa983db2b25e0ec
+      internalID: -1417620743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_13
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 599
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9727f6f57f76444adaf7807f87b084
+      internalID: -1124677733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_14
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 607
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6b5c16652273f418ff7510ba46df41
+      internalID: -875716264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_15
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 500
+        width: 35
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97939e5b23d61e149a11dc43c8e76513
+      internalID: -1401725674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 500
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f53057f481e7b439b9d88c853b0798
+      internalID: -729859935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 501
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8773b161349144682553f4e005526e
+      internalID: 150616649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_18
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 500
+        width: 72
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab3b3161e184c94c8e040452a877897
+      internalID: -1769998815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_19
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 509
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebc2069f36a79b42a7a11fc2e594966
+      internalID: 1574222179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 417
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2df4a760882faf4397a3d5d11d99f85
+      internalID: 1024743585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 412
+        width: 23
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78534558cefb35741b418193e5be0653
+      internalID: 439137900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 413
+        width: 80
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f81729407972a439f93709d900b60d
+      internalID: -1028051997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_23
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 418
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b43ad6b1cc97a4e981e80c6a464dcf
+      internalID: -909822490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_24
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 414
+        width: 80
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb221d5006d1914680a66f5d6845a20
+      internalID: 548601874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_25
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 324
+        width: 76
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c945d717904fa40b06943f0aa01e6a
+      internalID: 1406685210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_26
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 318
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d721a861148926a47b330a9d6c98843b
+      internalID: 588291461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_27
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 310
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679ce8f530516794bbe41c21edfc78cd
+      internalID: -1961512540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_28
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 309
+        width: 30
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b57a307251ba64b80fc86f23717cf5
+      internalID: 742524438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_29
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 331
+        width: 71
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea9a4592357edd4e8473579d2263faf
+      internalID: 250525611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_30
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 209
+        width: 27
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d86bf12b93b6a4ebad618ade5b0624
+      internalID: -1100842152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 77
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a8345fc4621504a86f9aa659c9b30b
+      internalID: 471476738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_32
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 209
+        width: 27
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7f2ef03c077b94bb3918ffa3662a72
+      internalID: 1106185146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_33
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 209
+        width: 47
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62d11d6b46a5654b8cfd59753a4de3c
+      internalID: -1883196481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_34
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 209
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e697635c32c5e499bb3948bbb65f5d
+      internalID: -245443934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_35
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 118
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af969c6637f1e434dbaef04c3e068e08
+      internalID: 1853182163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_36
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 141
+        width: 75
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36695c2047e0e443a73691a2617bc20
+      internalID: -274685039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_37
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 111
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71daeed318041de4facf393cc24501cf
+      internalID: 1151382405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_38
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 111
+        width: 49
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab164e0fb6506942ab0f578893d7a8d
+      internalID: 45441125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_39
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 131
+        width: 76
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23e6f730a020244b8a7a0a488e3e5cc
+      internalID: -1545737568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameE_E02_Productos1_Imagenes_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 15
+        width: 77
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591cdd32513431940b31dc029b339162
+      internalID: 487609613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c6901ba654b5805438e2eeb90dbef4e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      GameE_E02_Productos1_Imagenes_0: -439869463
+      GameE_E02_Productos1_Imagenes_1: 905737853
+      GameE_E02_Productos1_Imagenes_10: -833839922
+      GameE_E02_Productos1_Imagenes_11: 121028247
+      GameE_E02_Productos1_Imagenes_12: -1417620743
+      GameE_E02_Productos1_Imagenes_13: -1124677733
+      GameE_E02_Productos1_Imagenes_14: -875716264
+      GameE_E02_Productos1_Imagenes_15: -1401725674
+      GameE_E02_Productos1_Imagenes_16: -729859935
+      GameE_E02_Productos1_Imagenes_17: 150616649
+      GameE_E02_Productos1_Imagenes_18: -1769998815
+      GameE_E02_Productos1_Imagenes_19: 1574222179
+      GameE_E02_Productos1_Imagenes_2: 1558039003
+      GameE_E02_Productos1_Imagenes_20: 1024743585
+      GameE_E02_Productos1_Imagenes_21: 439137900
+      GameE_E02_Productos1_Imagenes_22: -1028051997
+      GameE_E02_Productos1_Imagenes_23: -909822490
+      GameE_E02_Productos1_Imagenes_24: 548601874
+      GameE_E02_Productos1_Imagenes_25: 1406685210
+      GameE_E02_Productos1_Imagenes_26: 588291461
+      GameE_E02_Productos1_Imagenes_27: -1961512540
+      GameE_E02_Productos1_Imagenes_28: 742524438
+      GameE_E02_Productos1_Imagenes_29: 250525611
+      GameE_E02_Productos1_Imagenes_3: -755985651
+      GameE_E02_Productos1_Imagenes_30: -1100842152
+      GameE_E02_Productos1_Imagenes_31: 471476738
+      GameE_E02_Productos1_Imagenes_32: 1106185146
+      GameE_E02_Productos1_Imagenes_33: -1883196481
+      GameE_E02_Productos1_Imagenes_34: -245443934
+      GameE_E02_Productos1_Imagenes_35: 1853182163
+      GameE_E02_Productos1_Imagenes_36: -274685039
+      GameE_E02_Productos1_Imagenes_37: 1151382405
+      GameE_E02_Productos1_Imagenes_38: 45441125
+      GameE_E02_Productos1_Imagenes_39: -1545737568
+      GameE_E02_Productos1_Imagenes_4: -241154377
+      GameE_E02_Productos1_Imagenes_40: 487609613
+      GameE_E02_Productos1_Imagenes_5: 1956043889
+      GameE_E02_Productos1_Imagenes_6: 1156983771
+      GameE_E02_Productos1_Imagenes_7: 1167698197
+      GameE_E02_Productos1_Imagenes_8: 496138123
+      GameE_E02_Productos1_Imagenes_9: -827883849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,13 +1,15 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Cerrar : MonoBehaviour
 {
-    public GameObject creditos;
+    public AudioManager audio;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        creditos = GameObject.Find("Creditos");
+        audio = GameObject.Find("AudioManager").GetComponent<AudioManager>();
     }
 
     // Update is called once per frame
@@ -16,8 +18,9 @@ public class Cerrar : MonoBehaviour
         
     }
 
-    public void CerraCredutos()
+    public void IrPantallaInicio()
     {
-        creditos.SetActive(false);
+        SceneManager.LoadScene("GamesE_E02_NovaNova_MenuPrincipal", LoadSceneMode.Single);
+        audio.StopMusic();
     }
 }
